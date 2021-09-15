@@ -1,0 +1,59 @@
+{
+  "pokemons": [
+    {
+      "name": "Bulbasaur",
+      "id": 1,
+      "raridade": "comum"
+    },
+    {
+      "name": "Ivysaur",
+      "id": 2,
+      "raridade": "lendario"
+    },
+    {
+      "name": "Venusaur",
+      "id": 3,
+      "raridade": "comum"
+    },
+    {
+      "name": "Charmander",
+      "id": 4,
+      "raridade": "comum"
+    },
+    {
+      "name": "Charmeleon",
+      "id": 5,
+      "raridade": "comum"
+    },
+    {
+      "name": "Charizard",
+      "id": 6,
+      "raridade": "comum"
+    },
+    {
+      "name": "Squirtle",
+      "id": 7,
+      "raridade": "comum"
+    },
+    {
+      "name": "Wartortle",
+      "id": 8,
+      "raridade": "comum"
+    },
+    {
+      "name": "Blastoise",
+      "id": 9,
+      "raridade": "comum"
+    },
+    {
+      "name": "Caterpie",
+      "id": 10,
+      "raridade": "comum"
+    },
+    {
+      "name": "Metapod",
+      "id": 11,
+      "raridade": "comum"
+    }
+  ]
+}
