@@ -7,76 +7,80 @@ app.get("/", (req, res) => {
 });
 
 app.get("/pokemon", (req, res) => {
-  res.type("json");
   res.send(pokemonDB);
 });
 
-app.get("/pokemon/:id", (req, res) => {
-  res.type("json");
+// traz apenas um pokemons   pelo  id ou nome
+app.get("/pokemon/:idOrName", (req, res) => {
+  const { idOrName } = req.params;
 
-  if (!isNaN(req.params.id)) {
-    const result = pokemonDB.pokemons.filter((e) => {
-      return e.id == req.params.id;
-    });
+  if (!isNaN(req.params.idOrName)) {
+    const pokemon = pokemonDB.pokemons.find((e) => e.id == idOrName);
 
-    if (result.length === 0) {
-      res.send({ Error: "Pokemon not found" });
-    }
-    return res.send(result);
-  } else {
-    const result = pokemonDB.pokemons.filter((e) => {
-      return e.name == req.params.id;
-    });
+    if (!pokemon)
+      return res.send({ Error: `Pokemon id ${idOrName} not found` });
 
-    if (result.length === 0) {
-      res.send({ Error: "Pokemon not found" });
-    }
-    return res.send(result);
+    return res.send(pokemon);
   }
+  const pokemon = pokemonDB.pokemons.find(
+    (e) => e.name === idOrName.toLowerCase()
+  );
+  if (!pokemon) return res.send({ Error: `pokemon ${idOrName} not found` });
+
+  return res.send(pokemon);
 });
 
-app.get("/pokemon/raridade/:tipo", (req, res) => {
+// Pega os pokemons  apenas  pelo tipo tipo
+app.get("/pokemon/rarity/:type", (req, res) => {
   res.type("json");
+  const { type } = req.params;
 
-  const raridade = pokemonDB.pokemons.filter((e) => {
-    return e.raridade == req.params.tipo;
+  const rarity = pokemonDB.pokemons.filter((e) => {
+    return e.rarity == type;
   });
 
-  if (raridade.length === 0) {
-    res.send({ Error: "type not found" });
+  if (rarity.length === 0) {
+    res.statusCode = 404;
+    return res.send({ Error: "type not found" });
   }
 
-  return res.send(result);
+  return res.send(raridade);
 });
 
-app.get("/pokemon/raridade/:tipo/:idName", (req, res) => {
+app.get("/pokemon/raridade/:type/:idOrName", (req, res) => {
+  const { idOrName, type } = req.params;
   res.type("json");
 
   const result = pokemonDB.pokemons.filter(
-    (e) => e.raridade == req.params.tipo
+    (e) => e.rarity.toLowerCase() == type.toLowerCase()
   );
 
   if (result.length === 0) {
     res.send({ Error: "type not found" });
+    return res.send(result);
   }
 
-  if (!isNaN(req.params.idName)) {
-    const result2 = result.filter((e) => e.id == req.params.idName);
-    if (result2.length === 0) {
-      res.send({ Error: "pokemon not found" });
-    }
-    return res.send(result2);
-  } else {
-    const result2 = result.filter((e) => e.name == req.params.idName);
-    if (result2.length === 0) {
-      res.send({ Error: "pokemon not found" });
-    }
+  if (!isNaN(idOrName)) {
+    const result2 = result.find((e) => e.id == idOrName);
+    if (!result2) return res.send({ Error: "pokemon not found" });
     return res.send(result2);
   }
-
-  return res.send(result);
+  const result2 = result.find(
+    (e) => e.name.toLowerCase() == idOrName.toLowerCase()
+  );
+  if (!result2)
+    return res.send({ Error: `pokemon ${req.params.idName} not found` });
+  return res.send(result2);
 });
 
+app.get("/pokemon/types/:type", (req, res) => {
+  const { type } = req.params;
+  const result = pokemonDB.pokemons.filter((types) =>
+    types.types.includes(type)
+  );
+  if (result.length === 0) return res.send({ Error: `Type ${type} not found` });
+  res.send(result);
+});
 app.listen(process.env.PORT || 8080, () => {
   console.log("server running on port 8080");
 });

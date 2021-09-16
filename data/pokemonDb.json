@@ -1,59 +1,7630 @@
 {
   "pokemons": [
     {
-      "name": "Bulbasaur",
       "id": 1,
-      "raridade": "comum"
+      "name": "bulbasaur",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
     },
     {
-      "name": "Ivysaur",
       "id": 2,
-      "raridade": "lendario"
+      "name": "ivysaur",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
     },
     {
-      "name": "Venusaur",
       "id": 3,
-      "raridade": "comum"
+      "name": "venusaur",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
     },
     {
-      "name": "Charmander",
       "id": 4,
-      "raridade": "comum"
+      "name": "charmander",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
     },
     {
-      "name": "Charmeleon",
       "id": 5,
-      "raridade": "comum"
+      "name": "charmeleon",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
     },
     {
-      "name": "Charizard",
       "id": 6,
-      "raridade": "comum"
+      "name": "charizard",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "flying"
+      ]
     },
     {
-      "name": "Squirtle",
       "id": 7,
-      "raridade": "comum"
+      "name": "squirtle",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
     },
     {
-      "name": "Wartortle",
       "id": 8,
-      "raridade": "comum"
+      "name": "wartortle",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
     },
     {
-      "name": "Blastoise",
       "id": 9,
-      "raridade": "comum"
+      "name": "blastoise",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
     },
     {
-      "name": "Caterpie",
       "id": 10,
-      "raridade": "comum"
+      "name": "caterpie",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
     },
     {
-      "name": "Metapod",
       "id": 11,
-      "raridade": "comum"
+      "name": "metapod",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "butterfree",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "weedle",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "kakuna",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "beedrill",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "pidgey",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "pidgeotto",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "pidgeot",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "rattata",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "raticate",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "spearow",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "fearow",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "ekans",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "arbok",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "pikachu",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "raichu",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "sandshrew",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "sandslash",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "nidoran-f",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "nidorina",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "nidoqueen",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "ground"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "nidoran-m",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "nidorino",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "nidoking",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "ground"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "clefairy",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "clefable",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "vulpix",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "ninetales",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "jigglypuff",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "fairy"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "wigglytuff",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "fairy"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "zubat",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "flying"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "golbat",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "flying"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "oddish",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "gloom",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "vileplume",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "paras",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "parasect",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "venonat",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "venomoth",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "diglett",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "dugtrio",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "meowth",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "persian",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "psyduck",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "golduck",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "mankey",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "primeape",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "growlithe",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "arcanine",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "poliwag",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "poliwhirl",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "poliwrath",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "fighting"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "abra",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "kadabra",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "alakazam",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "machop",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "machoke",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "machamp",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "bellsprout",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "weepinbell",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "victreebel",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "tentacool",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "poison"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "tentacruel",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "poison"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "geodude",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "graveler",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "golem",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "ponyta",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "rapidash",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "slowpoke",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "slowbro",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "magnemite",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "steel"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "magneton",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "steel"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "farfetchd",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "doduo",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "dodrio",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "seel",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "dewgong",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ice"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "grimer",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "muk",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "shellder",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "cloyster",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ice"
+      ]
+    },
+    {
+      "id": 92,
+      "name": "gastly",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "poison"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "haunter",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "poison"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "gengar",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "poison"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "onix",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "drowzee",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "hypno",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "krabby",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 99,
+      "name": "kingler",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "voltorb",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "electrode",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "exeggcute",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "psychic"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "exeggutor",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "psychic"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "cubone",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "marowak",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "hitmonlee",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "hitmonchan",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "lickitung",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "koffing",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "weezing",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "rhyhorn",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "rock"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "rhydon",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "rock"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "chansey",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "tangela",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "kangaskhan",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "horsea",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "seadra",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "goldeen",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "seaking",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "staryu",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "starmie",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "mr-mime",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "scyther",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "jynx",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "psychic"
+      ]
+    },
+    {
+      "id": 125,
+      "name": "electabuzz",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "magmar",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "pinsir",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "tauros",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 129,
+      "name": "magikarp",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "gyarados",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "lapras",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ice"
+      ]
+    },
+    {
+      "id": 132,
+      "name": "ditto",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "eevee",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 134,
+      "name": "vaporeon",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "jolteon",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "flareon",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "porygon",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "omanyte",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "omastar",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "kabuto",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "kabutops",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "aerodactyl",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "flying"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "snorlax",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "articuno",
+      "rarity": "legendary",
+      "types": [
+        "ice",
+        "flying"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "zapdos",
+      "rarity": "legendary",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "moltres",
+      "rarity": "legendary",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    {
+      "id": 147,
+      "name": "dratini",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "dragonair",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "dragonite",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "mewtwo",
+      "rarity": "legendary",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "mew",
+      "rarity": "mythical",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "chikorita",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "bayleef",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "meganium",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "cyndaquil",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "quilava",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "typhlosion",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "totodile",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 159,
+      "name": "croconaw",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "feraligatr",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 161,
+      "name": "sentret",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "furret",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 163,
+      "name": "hoothoot",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "noctowl",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 165,
+      "name": "ledyba",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "ledian",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "spinarak",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "ariados",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 169,
+      "name": "crobat",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "flying"
+      ]
+    },
+    {
+      "id": 170,
+      "name": "chinchou",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "electric"
+      ]
+    },
+    {
+      "id": 171,
+      "name": "lanturn",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "electric"
+      ]
+    },
+    {
+      "id": 172,
+      "name": "pichu",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 173,
+      "name": "cleffa",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 174,
+      "name": "igglybuff",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "fairy"
+      ]
+    },
+    {
+      "id": 175,
+      "name": "togepi",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 176,
+      "name": "togetic",
+      "rarity": "comum",
+      "types": [
+        "fairy",
+        "flying"
+      ]
+    },
+    {
+      "id": 177,
+      "name": "natu",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    {
+      "id": 178,
+      "name": "xatu",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    {
+      "id": 179,
+      "name": "mareep",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 180,
+      "name": "flaaffy",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 181,
+      "name": "ampharos",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 182,
+      "name": "bellossom",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 183,
+      "name": "marill",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "fairy"
+      ]
+    },
+    {
+      "id": 184,
+      "name": "azumarill",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "fairy"
+      ]
+    },
+    {
+      "id": 185,
+      "name": "sudowoodo",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 186,
+      "name": "politoed",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 187,
+      "name": "hoppip",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    {
+      "id": 188,
+      "name": "skiploom",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    {
+      "id": 189,
+      "name": "jumpluff",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    {
+      "id": 190,
+      "name": "aipom",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 191,
+      "name": "sunkern",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 192,
+      "name": "sunflora",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 193,
+      "name": "yanma",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 194,
+      "name": "wooper",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "id": 195,
+      "name": "quagsire",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "id": 196,
+      "name": "espeon",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 197,
+      "name": "umbreon",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 198,
+      "name": "murkrow",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    {
+      "id": 199,
+      "name": "slowking",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    {
+      "id": 200,
+      "name": "misdreavus",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 201,
+      "name": "unown",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "wobbuffet",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 203,
+      "name": "girafarig",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "psychic"
+      ]
+    },
+    {
+      "id": 204,
+      "name": "pineco",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 205,
+      "name": "forretress",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "id": 206,
+      "name": "dunsparce",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 207,
+      "name": "gligar",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "flying"
+      ]
+    },
+    {
+      "id": 208,
+      "name": "steelix",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "ground"
+      ]
+    },
+    {
+      "id": 209,
+      "name": "snubbull",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 210,
+      "name": "granbull",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 211,
+      "name": "qwilfish",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "poison"
+      ]
+    },
+    {
+      "id": 212,
+      "name": "scizor",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "id": 213,
+      "name": "shuckle",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "rock"
+      ]
+    },
+    {
+      "id": 214,
+      "name": "heracross",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "fighting"
+      ]
+    },
+    {
+      "id": 215,
+      "name": "sneasel",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "ice"
+      ]
+    },
+    {
+      "id": 216,
+      "name": "teddiursa",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 217,
+      "name": "ursaring",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 218,
+      "name": "slugma",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 219,
+      "name": "magcargo",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "rock"
+      ]
+    },
+    {
+      "id": 220,
+      "name": "swinub",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "ground"
+      ]
+    },
+    {
+      "id": 221,
+      "name": "piloswine",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "ground"
+      ]
+    },
+    {
+      "id": 222,
+      "name": "corsola",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    {
+      "id": 223,
+      "name": "remoraid",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 224,
+      "name": "octillery",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 225,
+      "name": "delibird",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "flying"
+      ]
+    },
+    {
+      "id": 226,
+      "name": "mantine",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    {
+      "id": 227,
+      "name": "skarmory",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "flying"
+      ]
+    },
+    {
+      "id": 228,
+      "name": "houndour",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "fire"
+      ]
+    },
+    {
+      "id": 229,
+      "name": "houndoom",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "fire"
+      ]
+    },
+    {
+      "id": 230,
+      "name": "kingdra",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    {
+      "id": 231,
+      "name": "phanpy",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 232,
+      "name": "donphan",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 233,
+      "name": "porygon2",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 234,
+      "name": "stantler",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 235,
+      "name": "smeargle",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 236,
+      "name": "tyrogue",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 237,
+      "name": "hitmontop",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 238,
+      "name": "smoochum",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "psychic"
+      ]
+    },
+    {
+      "id": 239,
+      "name": "elekid",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 240,
+      "name": "magby",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 241,
+      "name": "miltank",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 242,
+      "name": "blissey",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 243,
+      "name": "raikou",
+      "rarity": "legendary",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 244,
+      "name": "entei",
+      "rarity": "legendary",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 245,
+      "name": "suicune",
+      "rarity": "legendary",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 246,
+      "name": "larvitar",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    {
+      "id": 247,
+      "name": "pupitar",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "ground"
+      ]
+    },
+    {
+      "id": 248,
+      "name": "tyranitar",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "dark"
+      ]
+    },
+    {
+      "id": 249,
+      "name": "lugia",
+      "rarity": "legendary",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    {
+      "id": 250,
+      "name": "ho-oh",
+      "rarity": "legendary",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    {
+      "id": 251,
+      "name": "celebi",
+      "rarity": "mythical",
+      "types": [
+        "psychic",
+        "grass"
+      ]
+    },
+    {
+      "id": 252,
+      "name": "treecko",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 253,
+      "name": "grovyle",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 254,
+      "name": "sceptile",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 255,
+      "name": "torchic",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 256,
+      "name": "combusken",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    {
+      "id": 257,
+      "name": "blaziken",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    {
+      "id": 258,
+      "name": "mudkip",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 259,
+      "name": "marshtomp",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "id": 260,
+      "name": "swampert",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "id": 261,
+      "name": "poochyena",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 262,
+      "name": "mightyena",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 263,
+      "name": "zigzagoon",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 264,
+      "name": "linoone",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 265,
+      "name": "wurmple",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 266,
+      "name": "silcoon",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 267,
+      "name": "beautifly",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 268,
+      "name": "cascoon",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 269,
+      "name": "dustox",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 270,
+      "name": "lotad",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "grass"
+      ]
+    },
+    {
+      "id": 271,
+      "name": "lombre",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "grass"
+      ]
+    },
+    {
+      "id": 272,
+      "name": "ludicolo",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "grass"
+      ]
+    },
+    {
+      "id": 273,
+      "name": "seedot",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 274,
+      "name": "nuzleaf",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "dark"
+      ]
+    },
+    {
+      "id": 275,
+      "name": "shiftry",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "dark"
+      ]
+    },
+    {
+      "id": 276,
+      "name": "taillow",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 277,
+      "name": "swellow",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 278,
+      "name": "wingull",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    {
+      "id": 279,
+      "name": "pelipper",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    {
+      "id": 280,
+      "name": "ralts",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    {
+      "id": 281,
+      "name": "kirlia",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    {
+      "id": 282,
+      "name": "gardevoir",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    {
+      "id": 283,
+      "name": "surskit",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "water"
+      ]
+    },
+    {
+      "id": 284,
+      "name": "masquerain",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 285,
+      "name": "shroomish",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 286,
+      "name": "breloom",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "fighting"
+      ]
+    },
+    {
+      "id": 287,
+      "name": "slakoth",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 288,
+      "name": "vigoroth",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 289,
+      "name": "slaking",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 290,
+      "name": "nincada",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "ground"
+      ]
+    },
+    {
+      "id": 291,
+      "name": "ninjask",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 292,
+      "name": "shedinja",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "ghost"
+      ]
+    },
+    {
+      "id": 293,
+      "name": "whismur",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 294,
+      "name": "loudred",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 295,
+      "name": "exploud",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 296,
+      "name": "makuhita",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 297,
+      "name": "hariyama",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 298,
+      "name": "azurill",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "fairy"
+      ]
+    },
+    {
+      "id": 299,
+      "name": "nosepass",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 300,
+      "name": "skitty",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 301,
+      "name": "delcatty",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "sableye",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "ghost"
+      ]
+    },
+    {
+      "id": 303,
+      "name": "mawile",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "fairy"
+      ]
+    },
+    {
+      "id": 304,
+      "name": "aron",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "rock"
+      ]
+    },
+    {
+      "id": 305,
+      "name": "lairon",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "rock"
+      ]
+    },
+    {
+      "id": 306,
+      "name": "aggron",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "rock"
+      ]
+    },
+    {
+      "id": 307,
+      "name": "meditite",
+      "rarity": "comum",
+      "types": [
+        "fighting",
+        "psychic"
+      ]
+    },
+    {
+      "id": 308,
+      "name": "medicham",
+      "rarity": "comum",
+      "types": [
+        "fighting",
+        "psychic"
+      ]
+    },
+    {
+      "id": 309,
+      "name": "electrike",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 310,
+      "name": "manectric",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 311,
+      "name": "plusle",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 312,
+      "name": "minun",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 313,
+      "name": "volbeat",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 314,
+      "name": "illumise",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 315,
+      "name": "roselia",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 316,
+      "name": "gulpin",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 317,
+      "name": "swalot",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 318,
+      "name": "carvanha",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    {
+      "id": 319,
+      "name": "sharpedo",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    {
+      "id": 320,
+      "name": "wailmer",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 321,
+      "name": "wailord",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 322,
+      "name": "numel",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "ground"
+      ]
+    },
+    {
+      "id": 323,
+      "name": "camerupt",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "ground"
+      ]
+    },
+    {
+      "id": 324,
+      "name": "torkoal",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 325,
+      "name": "spoink",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 326,
+      "name": "grumpig",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 327,
+      "name": "spinda",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 328,
+      "name": "trapinch",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 329,
+      "name": "vibrava",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "dragon"
+      ]
+    },
+    {
+      "id": 330,
+      "name": "flygon",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "dragon"
+      ]
+    },
+    {
+      "id": 331,
+      "name": "cacnea",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 332,
+      "name": "cacturne",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "dark"
+      ]
+    },
+    {
+      "id": 333,
+      "name": "swablu",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 334,
+      "name": "altaria",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    {
+      "id": 335,
+      "name": "zangoose",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 336,
+      "name": "seviper",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 337,
+      "name": "lunatone",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "psychic"
+      ]
+    },
+    {
+      "id": 338,
+      "name": "solrock",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "psychic"
+      ]
+    },
+    {
+      "id": 339,
+      "name": "barboach",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "id": 340,
+      "name": "whiscash",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "id": 341,
+      "name": "corphish",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 342,
+      "name": "crawdaunt",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    {
+      "id": 343,
+      "name": "baltoy",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "psychic"
+      ]
+    },
+    {
+      "id": 344,
+      "name": "claydol",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "psychic"
+      ]
+    },
+    {
+      "id": 345,
+      "name": "lileep",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "grass"
+      ]
+    },
+    {
+      "id": 346,
+      "name": "cradily",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "grass"
+      ]
+    },
+    {
+      "id": 347,
+      "name": "anorith",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "bug"
+      ]
+    },
+    {
+      "id": 348,
+      "name": "armaldo",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "bug"
+      ]
+    },
+    {
+      "id": 349,
+      "name": "feebas",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 350,
+      "name": "milotic",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 351,
+      "name": "castform",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 352,
+      "name": "kecleon",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 353,
+      "name": "shuppet",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 354,
+      "name": "banette",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 355,
+      "name": "duskull",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 356,
+      "name": "dusclops",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 357,
+      "name": "tropius",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    {
+      "id": 358,
+      "name": "chimecho",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 359,
+      "name": "absol",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 360,
+      "name": "wynaut",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 361,
+      "name": "snorunt",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 362,
+      "name": "glalie",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 363,
+      "name": "spheal",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "water"
+      ]
+    },
+    {
+      "id": 364,
+      "name": "sealeo",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "water"
+      ]
+    },
+    {
+      "id": 365,
+      "name": "walrein",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "water"
+      ]
+    },
+    {
+      "id": 366,
+      "name": "clamperl",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 367,
+      "name": "huntail",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 368,
+      "name": "gorebyss",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 369,
+      "name": "relicanth",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    {
+      "id": 370,
+      "name": "luvdisc",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 371,
+      "name": "bagon",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 372,
+      "name": "shelgon",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 373,
+      "name": "salamence",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    {
+      "id": 374,
+      "name": "beldum",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    {
+      "id": 375,
+      "name": "metang",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    {
+      "id": 376,
+      "name": "metagross",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    {
+      "id": 377,
+      "name": "regirock",
+      "rarity": "legendary",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 378,
+      "name": "regice",
+      "rarity": "legendary",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 379,
+      "name": "registeel",
+      "rarity": "legendary",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "id": 380,
+      "name": "latias",
+      "rarity": "legendary",
+      "types": [
+        "dragon",
+        "psychic"
+      ]
+    },
+    {
+      "id": 381,
+      "name": "latios",
+      "rarity": "legendary",
+      "types": [
+        "dragon",
+        "psychic"
+      ]
+    },
+    {
+      "id": 382,
+      "name": "kyogre",
+      "rarity": "legendary",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 383,
+      "name": "groudon",
+      "rarity": "legendary",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 384,
+      "name": "rayquaza",
+      "rarity": "legendary",
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    {
+      "id": 385,
+      "name": "jirachi",
+      "rarity": "mythical",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    {
+      "id": 386,
+      "name": "deoxys",
+      "rarity": "mythical",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 387,
+      "name": "turtwig",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 388,
+      "name": "grotle",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 389,
+      "name": "torterra",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "ground"
+      ]
+    },
+    {
+      "id": 390,
+      "name": "chimchar",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 391,
+      "name": "monferno",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    {
+      "id": 392,
+      "name": "infernape",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    {
+      "id": 393,
+      "name": "piplup",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 394,
+      "name": "prinplup",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 395,
+      "name": "empoleon",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "steel"
+      ]
+    },
+    {
+      "id": 396,
+      "name": "starly",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 397,
+      "name": "staravia",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 398,
+      "name": "staraptor",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 399,
+      "name": "bidoof",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 400,
+      "name": "bibarel",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "water"
+      ]
+    },
+    {
+      "id": 401,
+      "name": "kricketot",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 402,
+      "name": "kricketune",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 403,
+      "name": "shinx",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 404,
+      "name": "luxio",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 405,
+      "name": "luxray",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 406,
+      "name": "budew",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 407,
+      "name": "roserade",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 408,
+      "name": "cranidos",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 409,
+      "name": "rampardos",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 410,
+      "name": "shieldon",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "steel"
+      ]
+    },
+    {
+      "id": 411,
+      "name": "bastiodon",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "steel"
+      ]
+    },
+    {
+      "id": 412,
+      "name": "burmy",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 413,
+      "name": "wormadam",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    {
+      "id": 414,
+      "name": "mothim",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 415,
+      "name": "combee",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 416,
+      "name": "vespiquen",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 417,
+      "name": "pachirisu",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 418,
+      "name": "buizel",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 419,
+      "name": "floatzel",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 420,
+      "name": "cherubi",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 421,
+      "name": "cherrim",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 422,
+      "name": "shellos",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 423,
+      "name": "gastrodon",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "id": 424,
+      "name": "ambipom",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 425,
+      "name": "drifloon",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "flying"
+      ]
+    },
+    {
+      "id": 426,
+      "name": "drifblim",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "flying"
+      ]
+    },
+    {
+      "id": 427,
+      "name": "buneary",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 428,
+      "name": "lopunny",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 429,
+      "name": "mismagius",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 430,
+      "name": "honchkrow",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    {
+      "id": 431,
+      "name": "glameow",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 432,
+      "name": "purugly",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 433,
+      "name": "chingling",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 434,
+      "name": "stunky",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "dark"
+      ]
+    },
+    {
+      "id": 435,
+      "name": "skuntank",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "dark"
+      ]
+    },
+    {
+      "id": 436,
+      "name": "bronzor",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    {
+      "id": 437,
+      "name": "bronzong",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    {
+      "id": 438,
+      "name": "bonsly",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 439,
+      "name": "mime-jr",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    {
+      "id": 440,
+      "name": "happiny",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 441,
+      "name": "chatot",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 442,
+      "name": "spiritomb",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "dark"
+      ]
+    },
+    {
+      "id": 443,
+      "name": "gible",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "ground"
+      ]
+    },
+    {
+      "id": 444,
+      "name": "gabite",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "ground"
+      ]
+    },
+    {
+      "id": 445,
+      "name": "garchomp",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "ground"
+      ]
+    },
+    {
+      "id": 446,
+      "name": "munchlax",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 447,
+      "name": "riolu",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 448,
+      "name": "lucario",
+      "rarity": "comum",
+      "types": [
+        "fighting",
+        "steel"
+      ]
+    },
+    {
+      "id": 449,
+      "name": "hippopotas",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 450,
+      "name": "hippowdon",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 451,
+      "name": "skorupi",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "bug"
+      ]
+    },
+    {
+      "id": 452,
+      "name": "drapion",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "dark"
+      ]
+    },
+    {
+      "id": 453,
+      "name": "croagunk",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "fighting"
+      ]
+    },
+    {
+      "id": 454,
+      "name": "toxicroak",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "fighting"
+      ]
+    },
+    {
+      "id": 455,
+      "name": "carnivine",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 456,
+      "name": "finneon",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 457,
+      "name": "lumineon",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 458,
+      "name": "mantyke",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    {
+      "id": 459,
+      "name": "snover",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "ice"
+      ]
+    },
+    {
+      "id": 460,
+      "name": "abomasnow",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "ice"
+      ]
+    },
+    {
+      "id": 461,
+      "name": "weavile",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "ice"
+      ]
+    },
+    {
+      "id": 462,
+      "name": "magnezone",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "steel"
+      ]
+    },
+    {
+      "id": 463,
+      "name": "lickilicky",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 464,
+      "name": "rhyperior",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "rock"
+      ]
+    },
+    {
+      "id": 465,
+      "name": "tangrowth",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 466,
+      "name": "electivire",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 467,
+      "name": "magmortar",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 468,
+      "name": "togekiss",
+      "rarity": "comum",
+      "types": [
+        "fairy",
+        "flying"
+      ]
+    },
+    {
+      "id": 469,
+      "name": "yanmega",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 470,
+      "name": "leafeon",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 471,
+      "name": "glaceon",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 472,
+      "name": "gliscor",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "flying"
+      ]
+    },
+    {
+      "id": 473,
+      "name": "mamoswine",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "ground"
+      ]
+    },
+    {
+      "id": 474,
+      "name": "porygon-z",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 475,
+      "name": "gallade",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "fighting"
+      ]
+    },
+    {
+      "id": 476,
+      "name": "probopass",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "steel"
+      ]
+    },
+    {
+      "id": 477,
+      "name": "dusknoir",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 478,
+      "name": "froslass",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "ghost"
+      ]
+    },
+    {
+      "id": 479,
+      "name": "rotom",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "ghost"
+      ]
+    },
+    {
+      "id": 480,
+      "name": "uxie",
+      "rarity": "legendary",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 481,
+      "name": "mesprit",
+      "rarity": "legendary",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 482,
+      "name": "azelf",
+      "rarity": "legendary",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 483,
+      "name": "dialga",
+      "rarity": "legendary",
+      "types": [
+        "steel",
+        "dragon"
+      ]
+    },
+    {
+      "id": 484,
+      "name": "palkia",
+      "rarity": "legendary",
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    {
+      "id": 485,
+      "name": "heatran",
+      "rarity": "legendary",
+      "types": [
+        "fire",
+        "steel"
+      ]
+    },
+    {
+      "id": 486,
+      "name": "regigigas",
+      "rarity": "legendary",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 487,
+      "name": "giratina",
+      "rarity": "legendary",
+      "types": [
+        "ghost",
+        "dragon"
+      ]
+    },
+    {
+      "id": 488,
+      "name": "cresselia",
+      "rarity": "legendary",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 489,
+      "name": "phione",
+      "rarity": "mythical",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 490,
+      "name": "manaphy",
+      "rarity": "mythical",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 491,
+      "name": "darkrai",
+      "rarity": "mythical",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 492,
+      "name": "shaymin",
+      "rarity": "mythical",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 493,
+      "name": "arceus",
+      "rarity": "mythical",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 494,
+      "name": "victini",
+      "rarity": "mythical",
+      "types": [
+        "psychic",
+        "fire"
+      ]
+    },
+    {
+      "id": 495,
+      "name": "snivy",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 496,
+      "name": "servine",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 497,
+      "name": "serperior",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 498,
+      "name": "tepig",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 499,
+      "name": "pignite",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    {
+      "id": 500,
+      "name": "emboar",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "fighting"
+      ]
+    },
+    {
+      "id": 501,
+      "name": "oshawott",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 502,
+      "name": "dewott",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 503,
+      "name": "samurott",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 504,
+      "name": "patrat",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 505,
+      "name": "watchog",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 506,
+      "name": "lillipup",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 507,
+      "name": "herdier",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 508,
+      "name": "stoutland",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 509,
+      "name": "purrloin",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 510,
+      "name": "liepard",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 511,
+      "name": "pansage",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 512,
+      "name": "simisage",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 513,
+      "name": "pansear",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 514,
+      "name": "simisear",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 515,
+      "name": "panpour",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 516,
+      "name": "simipour",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 517,
+      "name": "munna",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 518,
+      "name": "musharna",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 519,
+      "name": "pidove",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 520,
+      "name": "tranquill",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 521,
+      "name": "unfezant",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 522,
+      "name": "blitzle",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 523,
+      "name": "zebstrika",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 524,
+      "name": "roggenrola",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 525,
+      "name": "boldore",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 526,
+      "name": "gigalith",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 527,
+      "name": "woobat",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    {
+      "id": 528,
+      "name": "swoobat",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    {
+      "id": 529,
+      "name": "drilbur",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 530,
+      "name": "excadrill",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "steel"
+      ]
+    },
+    {
+      "id": 531,
+      "name": "audino",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 532,
+      "name": "timburr",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 533,
+      "name": "gurdurr",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 534,
+      "name": "conkeldurr",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 535,
+      "name": "tympole",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 536,
+      "name": "palpitoad",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "id": 537,
+      "name": "seismitoad",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ground"
+      ]
+    },
+    {
+      "id": 538,
+      "name": "throh",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 539,
+      "name": "sawk",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 540,
+      "name": "sewaddle",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    {
+      "id": 541,
+      "name": "swadloon",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    {
+      "id": 542,
+      "name": "leavanny",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "grass"
+      ]
+    },
+    {
+      "id": 543,
+      "name": "venipede",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 544,
+      "name": "whirlipede",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 545,
+      "name": "scolipede",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "poison"
+      ]
+    },
+    {
+      "id": 546,
+      "name": "cottonee",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    {
+      "id": 547,
+      "name": "whimsicott",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    {
+      "id": 548,
+      "name": "petilil",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 549,
+      "name": "lilligant",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 550,
+      "name": "basculin",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 551,
+      "name": "sandile",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "dark"
+      ]
+    },
+    {
+      "id": 552,
+      "name": "krokorok",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "dark"
+      ]
+    },
+    {
+      "id": 553,
+      "name": "krookodile",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "dark"
+      ]
+    },
+    {
+      "id": 554,
+      "name": "darumaka",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 555,
+      "name": "darmanitan",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 556,
+      "name": "maractus",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 557,
+      "name": "dwebble",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "rock"
+      ]
+    },
+    {
+      "id": 558,
+      "name": "crustle",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "rock"
+      ]
+    },
+    {
+      "id": 559,
+      "name": "scraggy",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "fighting"
+      ]
+    },
+    {
+      "id": 560,
+      "name": "scrafty",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "fighting"
+      ]
+    },
+    {
+      "id": 561,
+      "name": "sigilyph",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "flying"
+      ]
+    },
+    {
+      "id": 562,
+      "name": "yamask",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 563,
+      "name": "cofagrigus",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 564,
+      "name": "tirtouga",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    {
+      "id": 565,
+      "name": "carracosta",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    {
+      "id": 566,
+      "name": "archen",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "flying"
+      ]
+    },
+    {
+      "id": 567,
+      "name": "archeops",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "flying"
+      ]
+    },
+    {
+      "id": 568,
+      "name": "trubbish",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 569,
+      "name": "garbodor",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 570,
+      "name": "zorua",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 571,
+      "name": "zoroark",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 572,
+      "name": "minccino",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 573,
+      "name": "cinccino",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 574,
+      "name": "gothita",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 575,
+      "name": "gothorita",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 576,
+      "name": "gothitelle",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 577,
+      "name": "solosis",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 578,
+      "name": "duosion",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 579,
+      "name": "reuniclus",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 580,
+      "name": "ducklett",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    {
+      "id": 581,
+      "name": "swanna",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "flying"
+      ]
+    },
+    {
+      "id": 582,
+      "name": "vanillite",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 583,
+      "name": "vanillish",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 584,
+      "name": "vanilluxe",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 585,
+      "name": "deerling",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "id": 586,
+      "name": "sawsbuck",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "grass"
+      ]
+    },
+    {
+      "id": 587,
+      "name": "emolga",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    {
+      "id": 588,
+      "name": "karrablast",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 589,
+      "name": "escavalier",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "id": 590,
+      "name": "foongus",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 591,
+      "name": "amoonguss",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "id": 592,
+      "name": "frillish",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ghost"
+      ]
+    },
+    {
+      "id": 593,
+      "name": "jellicent",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ghost"
+      ]
+    },
+    {
+      "id": 594,
+      "name": "alomomola",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 595,
+      "name": "joltik",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "electric"
+      ]
+    },
+    {
+      "id": 596,
+      "name": "galvantula",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "electric"
+      ]
+    },
+    {
+      "id": 597,
+      "name": "ferroseed",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "steel"
+      ]
+    },
+    {
+      "id": 598,
+      "name": "ferrothorn",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "steel"
+      ]
+    },
+    {
+      "id": 599,
+      "name": "klink",
+      "rarity": "comum",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "id": 600,
+      "name": "klang",
+      "rarity": "comum",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "id": 601,
+      "name": "klinklang",
+      "rarity": "comum",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "id": 602,
+      "name": "tynamo",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 603,
+      "name": "eelektrik",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 604,
+      "name": "eelektross",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 605,
+      "name": "elgyem",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 606,
+      "name": "beheeyem",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 607,
+      "name": "litwick",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "fire"
+      ]
+    },
+    {
+      "id": 608,
+      "name": "lampent",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "fire"
+      ]
+    },
+    {
+      "id": 609,
+      "name": "chandelure",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "fire"
+      ]
+    },
+    {
+      "id": 610,
+      "name": "axew",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 611,
+      "name": "fraxure",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 612,
+      "name": "haxorus",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 613,
+      "name": "cubchoo",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 614,
+      "name": "beartic",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 615,
+      "name": "cryogonal",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 616,
+      "name": "shelmet",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 617,
+      "name": "accelgor",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 618,
+      "name": "stunfisk",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "electric"
+      ]
+    },
+    {
+      "id": 619,
+      "name": "mienfoo",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 620,
+      "name": "mienshao",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 621,
+      "name": "druddigon",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 622,
+      "name": "golett",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "ghost"
+      ]
+    },
+    {
+      "id": 623,
+      "name": "golurk",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "ghost"
+      ]
+    },
+    {
+      "id": 624,
+      "name": "pawniard",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "steel"
+      ]
+    },
+    {
+      "id": 625,
+      "name": "bisharp",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "steel"
+      ]
+    },
+    {
+      "id": 626,
+      "name": "bouffalant",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 627,
+      "name": "rufflet",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 628,
+      "name": "braviary",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 629,
+      "name": "vullaby",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    {
+      "id": 630,
+      "name": "mandibuzz",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    {
+      "id": 631,
+      "name": "heatmor",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 632,
+      "name": "durant",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "id": 633,
+      "name": "deino",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    {
+      "id": 634,
+      "name": "zweilous",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    {
+      "id": 635,
+      "name": "hydreigon",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    {
+      "id": 636,
+      "name": "larvesta",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "fire"
+      ]
+    },
+    {
+      "id": 637,
+      "name": "volcarona",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "fire"
+      ]
+    },
+    {
+      "id": 638,
+      "name": "cobalion",
+      "rarity": "legendary",
+      "types": [
+        "steel",
+        "fighting"
+      ]
+    },
+    {
+      "id": 639,
+      "name": "terrakion",
+      "rarity": "legendary",
+      "types": [
+        "rock",
+        "fighting"
+      ]
+    },
+    {
+      "id": 640,
+      "name": "virizion",
+      "rarity": "legendary",
+      "types": [
+        "grass",
+        "fighting"
+      ]
+    },
+    {
+      "id": 641,
+      "name": "tornadus",
+      "rarity": "legendary",
+      "types": [
+        "flying"
+      ]
+    },
+    {
+      "id": 642,
+      "name": "thundurus",
+      "rarity": "legendary",
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    {
+      "id": 643,
+      "name": "reshiram",
+      "rarity": "legendary",
+      "types": [
+        "dragon",
+        "fire"
+      ]
+    },
+    {
+      "id": 644,
+      "name": "zekrom",
+      "rarity": "legendary",
+      "types": [
+        "dragon",
+        "electric"
+      ]
+    },
+    {
+      "id": 645,
+      "name": "landorus",
+      "rarity": "legendary",
+      "types": [
+        "ground",
+        "flying"
+      ]
+    },
+    {
+      "id": 646,
+      "name": "kyurem",
+      "rarity": "legendary",
+      "types": [
+        "dragon",
+        "ice"
+      ]
+    },
+    {
+      "id": 647,
+      "name": "keldeo",
+      "rarity": "mythical",
+      "types": [
+        "water",
+        "fighting"
+      ]
+    },
+    {
+      "id": 648,
+      "name": "meloetta",
+      "rarity": "mythical",
+      "types": [
+        "normal",
+        "psychic"
+      ]
+    },
+    {
+      "id": 649,
+      "name": "genesect",
+      "rarity": "mythical",
+      "types": [
+        "bug",
+        "steel"
+      ]
+    },
+    {
+      "id": 650,
+      "name": "chespin",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 651,
+      "name": "quilladin",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 652,
+      "name": "chesnaught",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "fighting"
+      ]
+    },
+    {
+      "id": 653,
+      "name": "fennekin",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 654,
+      "name": "braixen",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 655,
+      "name": "delphox",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "psychic"
+      ]
+    },
+    {
+      "id": 656,
+      "name": "froakie",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 657,
+      "name": "frogadier",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 658,
+      "name": "greninja",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    {
+      "id": 659,
+      "name": "bunnelby",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 660,
+      "name": "diggersby",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "ground"
+      ]
+    },
+    {
+      "id": 661,
+      "name": "fletchling",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 662,
+      "name": "fletchinder",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    {
+      "id": 663,
+      "name": "talonflame",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    {
+      "id": 664,
+      "name": "scatterbug",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 665,
+      "name": "spewpa",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 666,
+      "name": "vivillon",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "flying"
+      ]
+    },
+    {
+      "id": 667,
+      "name": "litleo",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "normal"
+      ]
+    },
+    {
+      "id": 668,
+      "name": "pyroar",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "normal"
+      ]
+    },
+    {
+      "id": 669,
+      "name": "flabebe",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 670,
+      "name": "floette",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 671,
+      "name": "florges",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 672,
+      "name": "skiddo",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 673,
+      "name": "gogoat",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 674,
+      "name": "pancham",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 675,
+      "name": "pangoro",
+      "rarity": "comum",
+      "types": [
+        "fighting",
+        "dark"
+      ]
+    },
+    {
+      "id": 676,
+      "name": "furfrou",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 677,
+      "name": "espurr",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 678,
+      "name": "meowstic",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 679,
+      "name": "honedge",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "ghost"
+      ]
+    },
+    {
+      "id": 680,
+      "name": "doublade",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "ghost"
+      ]
+    },
+    {
+      "id": 681,
+      "name": "aegislash",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "ghost"
+      ]
+    },
+    {
+      "id": 682,
+      "name": "spritzee",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 683,
+      "name": "aromatisse",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 684,
+      "name": "swirlix",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 685,
+      "name": "slurpuff",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 686,
+      "name": "inkay",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "psychic"
+      ]
+    },
+    {
+      "id": 687,
+      "name": "malamar",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "psychic"
+      ]
+    },
+    {
+      "id": 688,
+      "name": "binacle",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    {
+      "id": 689,
+      "name": "barbaracle",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    {
+      "id": 690,
+      "name": "skrelp",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "water"
+      ]
+    },
+    {
+      "id": 691,
+      "name": "dragalge",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "dragon"
+      ]
+    },
+    {
+      "id": 692,
+      "name": "clauncher",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 693,
+      "name": "clawitzer",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 694,
+      "name": "helioptile",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "normal"
+      ]
+    },
+    {
+      "id": 695,
+      "name": "heliolisk",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "normal"
+      ]
+    },
+    {
+      "id": 696,
+      "name": "tyrunt",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "dragon"
+      ]
+    },
+    {
+      "id": 697,
+      "name": "tyrantrum",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "dragon"
+      ]
+    },
+    {
+      "id": 698,
+      "name": "amaura",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "ice"
+      ]
+    },
+    {
+      "id": 699,
+      "name": "aurorus",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "ice"
+      ]
+    },
+    {
+      "id": 700,
+      "name": "sylveon",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 701,
+      "name": "hawlucha",
+      "rarity": "comum",
+      "types": [
+        "fighting",
+        "flying"
+      ]
+    },
+    {
+      "id": 702,
+      "name": "dedenne",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "fairy"
+      ]
+    },
+    {
+      "id": 703,
+      "name": "carbink",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "fairy"
+      ]
+    },
+    {
+      "id": 704,
+      "name": "goomy",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 705,
+      "name": "sliggoo",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 706,
+      "name": "goodra",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 707,
+      "name": "klefki",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "fairy"
+      ]
+    },
+    {
+      "id": 708,
+      "name": "phantump",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "id": 709,
+      "name": "trevenant",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "id": 710,
+      "name": "pumpkaboo",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "id": 711,
+      "name": "gourgeist",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "id": 712,
+      "name": "bergmite",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 713,
+      "name": "avalugg",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 714,
+      "name": "noibat",
+      "rarity": "comum",
+      "types": [
+        "flying",
+        "dragon"
+      ]
+    },
+    {
+      "id": 715,
+      "name": "noivern",
+      "rarity": "comum",
+      "types": [
+        "flying",
+        "dragon"
+      ]
+    },
+    {
+      "id": 716,
+      "name": "xerneas",
+      "rarity": "legendary",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 717,
+      "name": "yveltal",
+      "rarity": "legendary",
+      "types": [
+        "dark",
+        "flying"
+      ]
+    },
+    {
+      "id": 718,
+      "name": "zygarde",
+      "rarity": "legendary",
+      "types": [
+        "dragon",
+        "ground"
+      ]
+    },
+    {
+      "id": 719,
+      "name": "diancie",
+      "rarity": "mythical",
+      "types": [
+        "rock",
+        "fairy"
+      ]
+    },
+    {
+      "id": 720,
+      "name": "hoopa",
+      "rarity": "mythical",
+      "types": [
+        "psychic",
+        "ghost"
+      ]
+    },
+    {
+      "id": 721,
+      "name": "volcanion",
+      "rarity": "mythical",
+      "types": [
+        "fire",
+        "water"
+      ]
+    },
+    {
+      "id": 722,
+      "name": "rowlet",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    {
+      "id": 723,
+      "name": "dartrix",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "flying"
+      ]
+    },
+    {
+      "id": 724,
+      "name": "decidueye",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "ghost"
+      ]
+    },
+    {
+      "id": 725,
+      "name": "litten",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 726,
+      "name": "torracat",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 727,
+      "name": "incineroar",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "dark"
+      ]
+    },
+    {
+      "id": 728,
+      "name": "popplio",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 729,
+      "name": "brionne",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 730,
+      "name": "primarina",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "fairy"
+      ]
+    },
+    {
+      "id": 731,
+      "name": "pikipek",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 732,
+      "name": "trumbeak",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 733,
+      "name": "toucannon",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "id": 734,
+      "name": "yungoos",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 735,
+      "name": "gumshoos",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 736,
+      "name": "grubbin",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 737,
+      "name": "charjabug",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "electric"
+      ]
+    },
+    {
+      "id": 738,
+      "name": "vikavolt",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "electric"
+      ]
+    },
+    {
+      "id": 739,
+      "name": "crabrawler",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 740,
+      "name": "crabominable",
+      "rarity": "comum",
+      "types": [
+        "fighting",
+        "ice"
+      ]
+    },
+    {
+      "id": 741,
+      "name": "oricorio",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    {
+      "id": 742,
+      "name": "cutiefly",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "fairy"
+      ]
+    },
+    {
+      "id": 743,
+      "name": "ribombee",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "fairy"
+      ]
+    },
+    {
+      "id": 744,
+      "name": "rockruff",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 745,
+      "name": "lycanroc",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 746,
+      "name": "wishiwashi",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 747,
+      "name": "mareanie",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "water"
+      ]
+    },
+    {
+      "id": 748,
+      "name": "toxapex",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "water"
+      ]
+    },
+    {
+      "id": 749,
+      "name": "mudbray",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 750,
+      "name": "mudsdale",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 751,
+      "name": "dewpider",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "bug"
+      ]
+    },
+    {
+      "id": 752,
+      "name": "araquanid",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "bug"
+      ]
+    },
+    {
+      "id": 753,
+      "name": "fomantis",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 754,
+      "name": "lurantis",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 755,
+      "name": "morelull",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    {
+      "id": 756,
+      "name": "shiinotic",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    {
+      "id": 757,
+      "name": "salandit",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "fire"
+      ]
+    },
+    {
+      "id": 758,
+      "name": "salazzle",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "fire"
+      ]
+    },
+    {
+      "id": 759,
+      "name": "stufful",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "id": 760,
+      "name": "bewear",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "id": 761,
+      "name": "bounsweet",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 762,
+      "name": "steenee",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 763,
+      "name": "tsareena",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 764,
+      "name": "comfey",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 765,
+      "name": "oranguru",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "psychic"
+      ]
+    },
+    {
+      "id": 766,
+      "name": "passimian",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 767,
+      "name": "wimpod",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "water"
+      ]
+    },
+    {
+      "id": 768,
+      "name": "golisopod",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "water"
+      ]
+    },
+    {
+      "id": 769,
+      "name": "sandygast",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "ground"
+      ]
+    },
+    {
+      "id": 770,
+      "name": "palossand",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "ground"
+      ]
+    },
+    {
+      "id": 771,
+      "name": "pyukumuku",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 772,
+      "name": "type-null",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 773,
+      "name": "silvally",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 774,
+      "name": "minior",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "flying"
+      ]
+    },
+    {
+      "id": 775,
+      "name": "komala",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 776,
+      "name": "turtonator",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "dragon"
+      ]
+    },
+    {
+      "id": 777,
+      "name": "togedemaru",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "steel"
+      ]
+    },
+    {
+      "id": 778,
+      "name": "mimikyu",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "fairy"
+      ]
+    },
+    {
+      "id": 779,
+      "name": "bruxish",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    {
+      "id": 780,
+      "name": "drampa",
+      "rarity": "comum",
+      "types": [
+        "normal",
+        "dragon"
+      ]
+    },
+    {
+      "id": 781,
+      "name": "dhelmise",
+      "rarity": "comum",
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "id": 782,
+      "name": "jangmo-o",
+      "rarity": "comum",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 783,
+      "name": "hakamo-o",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "fighting"
+      ]
+    },
+    {
+      "id": 784,
+      "name": "kommo-o",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "fighting"
+      ]
+    },
+    {
+      "id": 785,
+      "name": "tapu-koko",
+      "rarity": "legendary",
+      "types": [
+        "electric",
+        "fairy"
+      ]
+    },
+    {
+      "id": 786,
+      "name": "tapu-lele",
+      "rarity": "legendary",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    {
+      "id": 787,
+      "name": "tapu-bulu",
+      "rarity": "legendary",
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    {
+      "id": 788,
+      "name": "tapu-fini",
+      "rarity": "legendary",
+      "types": [
+        "water",
+        "fairy"
+      ]
+    },
+    {
+      "id": 789,
+      "name": "cosmog",
+      "rarity": "legendary",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 790,
+      "name": "cosmoem",
+      "rarity": "legendary",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 791,
+      "name": "solgaleo",
+      "rarity": "legendary",
+      "types": [
+        "psychic",
+        "steel"
+      ]
+    },
+    {
+      "id": 792,
+      "name": "lunala",
+      "rarity": "legendary",
+      "types": [
+        "psychic",
+        "ghost"
+      ]
+    },
+    {
+      "id": 793,
+      "name": "nihilego",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "poison"
+      ]
+    },
+    {
+      "id": 794,
+      "name": "buzzwole",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "fighting"
+      ]
+    },
+    {
+      "id": 795,
+      "name": "pheromosa",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "fighting"
+      ]
+    },
+    {
+      "id": 796,
+      "name": "xurkitree",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 797,
+      "name": "celesteela",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "flying"
+      ]
+    },
+    {
+      "id": 798,
+      "name": "kartana",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "steel"
+      ]
+    },
+    {
+      "id": 799,
+      "name": "guzzlord",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    {
+      "id": 800,
+      "name": "necrozma",
+      "rarity": "legendary",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 801,
+      "name": "magearna",
+      "rarity": "mythical",
+      "types": [
+        "steel",
+        "fairy"
+      ]
+    },
+    {
+      "id": 802,
+      "name": "marshadow",
+      "rarity": "mythical",
+      "types": [
+        "fighting",
+        "ghost"
+      ]
+    },
+    {
+      "id": 803,
+      "name": "poipole",
+      "rarity": "comum",
+      "types": [
+        "poison"
+      ]
+    },
+    {
+      "id": 804,
+      "name": "naganadel",
+      "rarity": "comum",
+      "types": [
+        "poison",
+        "dragon"
+      ]
+    },
+    {
+      "id": 805,
+      "name": "stakataka",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "steel"
+      ]
+    },
+    {
+      "id": 806,
+      "name": "blacephalon",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "ghost"
+      ]
+    },
+    {
+      "id": 807,
+      "name": "zeraora",
+      "rarity": "mythical",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 808,
+      "name": "meltan",
+      "rarity": "mythical",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "id": 809,
+      "name": "melmetal",
+      "rarity": "mythical",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "id": 810,
+      "name": "grookey",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 811,
+      "name": "thwackey",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 812,
+      "name": "rillaboom",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 813,
+      "name": "scorbunny",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 814,
+      "name": "raboot",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 815,
+      "name": "cinderace",
+      "rarity": "comum",
+      "types": [
+        "fire"
+      ]
+    },
+    {
+      "id": 816,
+      "name": "sobble",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 817,
+      "name": "drizzile",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 818,
+      "name": "inteleon",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 819,
+      "name": "skwovet",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 820,
+      "name": "greedent",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 821,
+      "name": "rookidee",
+      "rarity": "comum",
+      "types": [
+        "flying"
+      ]
+    },
+    {
+      "id": 822,
+      "name": "corvisquire",
+      "rarity": "comum",
+      "types": [
+        "flying"
+      ]
+    },
+    {
+      "id": 823,
+      "name": "corviknight",
+      "rarity": "comum",
+      "types": [
+        "flying",
+        "steel"
+      ]
+    },
+    {
+      "id": 824,
+      "name": "blipbug",
+      "rarity": "comum",
+      "types": [
+        "bug"
+      ]
+    },
+    {
+      "id": 825,
+      "name": "dottler",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "psychic"
+      ]
+    },
+    {
+      "id": 826,
+      "name": "orbeetle",
+      "rarity": "comum",
+      "types": [
+        "bug",
+        "psychic"
+      ]
+    },
+    {
+      "id": 827,
+      "name": "nickit",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 828,
+      "name": "thievul",
+      "rarity": "comum",
+      "types": [
+        "dark"
+      ]
+    },
+    {
+      "id": 829,
+      "name": "gossifleur",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 830,
+      "name": "eldegoss",
+      "rarity": "comum",
+      "types": [
+        "grass"
+      ]
+    },
+    {
+      "id": 831,
+      "name": "wooloo",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 832,
+      "name": "dubwool",
+      "rarity": "comum",
+      "types": [
+        "normal"
+      ]
+    },
+    {
+      "id": 833,
+      "name": "chewtle",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 834,
+      "name": "drednaw",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "rock"
+      ]
+    },
+    {
+      "id": 835,
+      "name": "yamper",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 836,
+      "name": "boltund",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 837,
+      "name": "rolycoly",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 838,
+      "name": "carkol",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "fire"
+      ]
+    },
+    {
+      "id": 839,
+      "name": "coalossal",
+      "rarity": "comum",
+      "types": [
+        "rock",
+        "fire"
+      ]
+    },
+    {
+      "id": 840,
+      "name": "applin",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    {
+      "id": 841,
+      "name": "flapple",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    {
+      "id": 842,
+      "name": "appletun",
+      "rarity": "comum",
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    {
+      "id": 843,
+      "name": "silicobra",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 844,
+      "name": "sandaconda",
+      "rarity": "comum",
+      "types": [
+        "ground"
+      ]
+    },
+    {
+      "id": 845,
+      "name": "cramorant",
+      "rarity": "comum",
+      "types": [
+        "flying",
+        "water"
+      ]
+    },
+    {
+      "id": 846,
+      "name": "arrokuda",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 847,
+      "name": "barraskewda",
+      "rarity": "comum",
+      "types": [
+        "water"
+      ]
+    },
+    {
+      "id": 848,
+      "name": "toxel",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "poison"
+      ]
+    },
+    {
+      "id": 849,
+      "name": "toxtricity",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "poison"
+      ]
+    },
+    {
+      "id": 850,
+      "name": "sizzlipede",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "bug"
+      ]
+    },
+    {
+      "id": 851,
+      "name": "centiskorch",
+      "rarity": "comum",
+      "types": [
+        "fire",
+        "bug"
+      ]
+    },
+    {
+      "id": 852,
+      "name": "clobbopus",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 853,
+      "name": "grapploct",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 854,
+      "name": "sinistea",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 855,
+      "name": "polteageist",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 856,
+      "name": "hatenna",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 857,
+      "name": "hattrem",
+      "rarity": "comum",
+      "types": [
+        "psychic"
+      ]
+    },
+    {
+      "id": 858,
+      "name": "hatterene",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    {
+      "id": 859,
+      "name": "impidimp",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "fairy"
+      ]
+    },
+    {
+      "id": 860,
+      "name": "morgrem",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "fairy"
+      ]
+    },
+    {
+      "id": 861,
+      "name": "grimmsnarl",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "fairy"
+      ]
+    },
+    {
+      "id": 862,
+      "name": "obstagoon",
+      "rarity": "comum",
+      "types": [
+        "dark",
+        "normal"
+      ]
+    },
+    {
+      "id": 863,
+      "name": "perrserker",
+      "rarity": "comum",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "id": 864,
+      "name": "cursola",
+      "rarity": "comum",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 865,
+      "name": "sirfetchd",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 866,
+      "name": "mr-rime",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "psychic"
+      ]
+    },
+    {
+      "id": 867,
+      "name": "runerigus",
+      "rarity": "comum",
+      "types": [
+        "ground",
+        "ghost"
+      ]
+    },
+    {
+      "id": 868,
+      "name": "milcery",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 869,
+      "name": "alcremie",
+      "rarity": "comum",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 870,
+      "name": "falinks",
+      "rarity": "comum",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 871,
+      "name": "pincurchin",
+      "rarity": "comum",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 872,
+      "name": "snom",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "bug"
+      ]
+    },
+    {
+      "id": 873,
+      "name": "frosmoth",
+      "rarity": "comum",
+      "types": [
+        "ice",
+        "bug"
+      ]
+    },
+    {
+      "id": 874,
+      "name": "stonjourner",
+      "rarity": "comum",
+      "types": [
+        "rock"
+      ]
+    },
+    {
+      "id": 875,
+      "name": "eiscue",
+      "rarity": "comum",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 876,
+      "name": "indeedee",
+      "rarity": "comum",
+      "types": [
+        "psychic",
+        "normal"
+      ]
+    },
+    {
+      "id": 877,
+      "name": "morpeko",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "dark"
+      ]
+    },
+    {
+      "id": 878,
+      "name": "cufant",
+      "rarity": "comum",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "id": 879,
+      "name": "copperajah",
+      "rarity": "comum",
+      "types": [
+        "steel"
+      ]
+    },
+    {
+      "id": 880,
+      "name": "dracozolt",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "dragon"
+      ]
+    },
+    {
+      "id": 881,
+      "name": "arctozolt",
+      "rarity": "comum",
+      "types": [
+        "electric",
+        "ice"
+      ]
+    },
+    {
+      "id": 882,
+      "name": "dracovish",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    {
+      "id": 883,
+      "name": "arctovish",
+      "rarity": "comum",
+      "types": [
+        "water",
+        "ice"
+      ]
+    },
+    {
+      "id": 884,
+      "name": "duraludon",
+      "rarity": "comum",
+      "types": [
+        "steel",
+        "dragon"
+      ]
+    },
+    {
+      "id": 885,
+      "name": "dreepy",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "ghost"
+      ]
+    },
+    {
+      "id": 886,
+      "name": "drakloak",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "ghost"
+      ]
+    },
+    {
+      "id": 887,
+      "name": "dragapult",
+      "rarity": "comum",
+      "types": [
+        "dragon",
+        "ghost"
+      ]
+    },
+    {
+      "id": 888,
+      "name": "zacian",
+      "rarity": "legendary",
+      "types": [
+        "fairy"
+      ]
+    },
+    {
+      "id": 889,
+      "name": "zamazenta",
+      "rarity": "legendary",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 890,
+      "name": "eternatus",
+      "rarity": "legendary",
+      "types": [
+        "poison",
+        "dragon"
+      ]
+    },
+    {
+      "id": 891,
+      "name": "kubfu",
+      "rarity": "legendary",
+      "types": [
+        "fighting"
+      ]
+    },
+    {
+      "id": 892,
+      "name": "urshifu",
+      "rarity": "legendary",
+      "types": [
+        "fighting",
+        "dark"
+      ]
+    },
+    {
+      "id": 893,
+      "name": "zarude",
+      "rarity": "mythical",
+      "types": [
+        "dark",
+        "grass"
+      ]
+    },
+    {
+      "id": 894,
+      "name": "regieleki",
+      "rarity": "legendary",
+      "types": [
+        "electric"
+      ]
+    },
+    {
+      "id": 895,
+      "name": "regidrago",
+      "rarity": "legendary",
+      "types": [
+        "dragon"
+      ]
+    },
+    {
+      "id": 896,
+      "name": "glastrier",
+      "rarity": "legendary",
+      "types": [
+        "ice"
+      ]
+    },
+    {
+      "id": 897,
+      "name": "spectrier",
+      "rarity": "legendary",
+      "types": [
+        "ghost"
+      ]
+    },
+    {
+      "id": 898,
+      "name": "calyrex",
+      "rarity": "legendary",
+      "types": [
+        "psychic",
+        "grass"
+      ]
     }
   ]
 }
