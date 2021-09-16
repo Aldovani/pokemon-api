@@ -17,15 +17,20 @@ app.get("/pokemon/:idOrName", (req, res) => {
   if (!isNaN(req.params.idOrName)) {
     const pokemon = pokemonDB.pokemons.find((e) => e.id == idOrName);
 
-    if (!pokemon)
+    if (!pokemon) {
+      res.statusCode = 404;
       return res.send({ Error: `Pokemon id ${idOrName} not found` });
+    }
 
     return res.send(pokemon);
   }
   const pokemon = pokemonDB.pokemons.find(
     (e) => e.name === idOrName.toLowerCase()
   );
-  if (!pokemon) return res.send({ Error: `pokemon ${idOrName} not found` });
+  if (!pokemon) {
+    res.statusCode = 404;
+    return res.send({ Error: `pokemon ${idOrName} not found` });
+  }
 
   return res.send(pokemon);
 });
@@ -43,8 +48,7 @@ app.get("/pokemon/rarity/:type", (req, res) => {
     res.statusCode = 404;
     return res.send({ Error: "type not found" });
   }
-
-  return res.send(raridade);
+  return res.send(rarity);
 });
 
 app.get("/pokemon/raridade/:type/:idOrName", (req, res) => {
@@ -56,20 +60,25 @@ app.get("/pokemon/raridade/:type/:idOrName", (req, res) => {
   );
 
   if (result.length === 0) {
-    res.send({ Error: "type not found" });
-    return res.send(result);
+    res.statusCode = 404;
+    return res.send({ Error: "type not found" });
   }
 
   if (!isNaN(idOrName)) {
     const result2 = result.find((e) => e.id == idOrName);
-    if (!result2) return res.send({ Error: "pokemon not found" });
+    if (!result2) {
+      res.statusCode = 404;
+      return res.send({ Error: "pokemon not found" });
+    }
     return res.send(result2);
   }
   const result2 = result.find(
     (e) => e.name.toLowerCase() == idOrName.toLowerCase()
   );
-  if (!result2)
+  if (!result2) {
+    res.statusCode = 404;
     return res.send({ Error: `pokemon ${req.params.idName} not found` });
+  }
   return res.send(result2);
 });
 
@@ -78,7 +87,11 @@ app.get("/pokemon/types/:type", (req, res) => {
   const result = pokemonDB.pokemons.filter((types) =>
     types.types.includes(type)
   );
-  if (result.length === 0) return res.send({ Error: `Type ${type} not found` });
+  if (result.length === 0) {
+    res.statusCode = 404;
+    return res.send({ Error: `Type ${type} not found` });
+  }
+
   res.send(result);
 });
 app.listen(process.env.PORT || 8080, () => {
