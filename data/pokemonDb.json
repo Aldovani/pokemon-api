@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "ivysaur",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass",
         "poison"
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "venusaur",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "poison"
@@ -38,7 +38,7 @@
     {
       "id": 5,
       "name": "charmeleon",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire"
       ]
@@ -46,7 +46,7 @@
     {
       "id": 6,
       "name": "charizard",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "flying"
@@ -63,7 +63,7 @@
     {
       "id": 8,
       "name": "wartortle",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -71,7 +71,7 @@
     {
       "id": 9,
       "name": "blastoise",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -95,7 +95,7 @@
     {
       "id": 12,
       "name": "butterfree",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -122,7 +122,7 @@
     {
       "id": 15,
       "name": "beedrill",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "poison"
@@ -140,7 +140,7 @@
     {
       "id": 17,
       "name": "pidgeotto",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal",
         "flying"
@@ -149,7 +149,7 @@
     {
       "id": 18,
       "name": "pidgeot",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "flying"
@@ -166,7 +166,7 @@
     {
       "id": 20,
       "name": "raticate",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -183,7 +183,7 @@
     {
       "id": 22,
       "name": "fearow",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "flying"
@@ -200,7 +200,7 @@
     {
       "id": 24,
       "name": "arbok",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison"
       ]
@@ -208,7 +208,7 @@
     {
       "id": 25,
       "name": "pikachu",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "electric"
       ]
@@ -216,7 +216,7 @@
     {
       "id": 26,
       "name": "raichu",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -248,7 +248,7 @@
     {
       "id": 30,
       "name": "nidorina",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "poison"
       ]
@@ -256,7 +256,7 @@
     {
       "id": 31,
       "name": "nidoqueen",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "ground"
@@ -273,7 +273,7 @@
     {
       "id": 33,
       "name": "nidorino",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "poison"
       ]
@@ -281,7 +281,7 @@
     {
       "id": 34,
       "name": "nidoking",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "ground"
@@ -298,7 +298,7 @@
     {
       "id": 36,
       "name": "clefable",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fairy"
       ]
@@ -314,7 +314,7 @@
     {
       "id": 38,
       "name": "ninetales",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire"
       ]
@@ -331,7 +331,7 @@
     {
       "id": 40,
       "name": "wigglytuff",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "fairy"
@@ -349,7 +349,7 @@
     {
       "id": 42,
       "name": "golbat",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "flying"
@@ -367,7 +367,7 @@
     {
       "id": 44,
       "name": "gloom",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass",
         "poison"
@@ -376,7 +376,7 @@
     {
       "id": 45,
       "name": "vileplume",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "poison"
@@ -394,7 +394,7 @@
     {
       "id": 47,
       "name": "parasect",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "grass"
@@ -412,7 +412,7 @@
     {
       "id": 49,
       "name": "venomoth",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "poison"
@@ -429,7 +429,7 @@
     {
       "id": 51,
       "name": "dugtrio",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ground"
       ]
@@ -445,7 +445,7 @@
     {
       "id": 53,
       "name": "persian",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -461,7 +461,7 @@
     {
       "id": 55,
       "name": "golduck",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -477,7 +477,7 @@
     {
       "id": 57,
       "name": "primeape",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -493,7 +493,7 @@
     {
       "id": 59,
       "name": "arcanine",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire"
       ]
@@ -509,7 +509,7 @@
     {
       "id": 61,
       "name": "poliwhirl",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -517,7 +517,7 @@
     {
       "id": 62,
       "name": "poliwrath",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "fighting"
@@ -534,7 +534,7 @@
     {
       "id": 64,
       "name": "kadabra",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "psychic"
       ]
@@ -542,7 +542,7 @@
     {
       "id": 65,
       "name": "alakazam",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic"
       ]
@@ -558,7 +558,7 @@
     {
       "id": 67,
       "name": "machoke",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fighting"
       ]
@@ -566,7 +566,7 @@
     {
       "id": 68,
       "name": "machamp",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -583,7 +583,7 @@
     {
       "id": 70,
       "name": "weepinbell",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass",
         "poison"
@@ -592,7 +592,7 @@
     {
       "id": 71,
       "name": "victreebel",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "poison"
@@ -610,7 +610,7 @@
     {
       "id": 73,
       "name": "tentacruel",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "poison"
@@ -628,7 +628,7 @@
     {
       "id": 75,
       "name": "graveler",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock",
         "ground"
@@ -637,7 +637,7 @@
     {
       "id": 76,
       "name": "golem",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "ground"
@@ -654,7 +654,7 @@
     {
       "id": 78,
       "name": "rapidash",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire"
       ]
@@ -671,7 +671,7 @@
     {
       "id": 80,
       "name": "slowbro",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "psychic"
@@ -689,7 +689,7 @@
     {
       "id": 82,
       "name": "magneton",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "electric",
         "steel"
@@ -698,7 +698,7 @@
     {
       "id": 83,
       "name": "farfetchd",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal",
         "flying"
@@ -716,7 +716,7 @@
     {
       "id": 85,
       "name": "dodrio",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "flying"
@@ -733,7 +733,7 @@
     {
       "id": 87,
       "name": "dewgong",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "ice"
@@ -750,7 +750,7 @@
     {
       "id": 89,
       "name": "muk",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison"
       ]
@@ -766,7 +766,7 @@
     {
       "id": 91,
       "name": "cloyster",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "ice"
@@ -784,7 +784,7 @@
     {
       "id": 93,
       "name": "haunter",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ghost",
         "poison"
@@ -793,7 +793,7 @@
     {
       "id": 94,
       "name": "gengar",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost",
         "poison"
@@ -819,7 +819,7 @@
     {
       "id": 97,
       "name": "hypno",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic"
       ]
@@ -835,7 +835,7 @@
     {
       "id": 99,
       "name": "kingler",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -851,7 +851,7 @@
     {
       "id": 101,
       "name": "electrode",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -868,7 +868,7 @@
     {
       "id": 103,
       "name": "exeggutor",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "psychic"
@@ -877,7 +877,7 @@
     {
       "id": 104,
       "name": "cubone",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ground"
       ]
@@ -885,7 +885,7 @@
     {
       "id": 105,
       "name": "marowak",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground"
       ]
@@ -893,7 +893,7 @@
     {
       "id": 106,
       "name": "hitmonlee",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -901,7 +901,7 @@
     {
       "id": 107,
       "name": "hitmonchan",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -909,7 +909,7 @@
     {
       "id": 108,
       "name": "lickitung",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -917,7 +917,7 @@
     {
       "id": 109,
       "name": "koffing",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "poison"
       ]
@@ -925,7 +925,7 @@
     {
       "id": 110,
       "name": "weezing",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison"
       ]
@@ -942,7 +942,7 @@
     {
       "id": 112,
       "name": "rhydon",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ground",
         "rock"
@@ -951,7 +951,7 @@
     {
       "id": 113,
       "name": "chansey",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -967,7 +967,7 @@
     {
       "id": 115,
       "name": "kangaskhan",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -983,7 +983,7 @@
     {
       "id": 117,
       "name": "seadra",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -999,7 +999,7 @@
     {
       "id": 119,
       "name": "seaking",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -1015,7 +1015,7 @@
     {
       "id": 121,
       "name": "starmie",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "psychic"
@@ -1024,7 +1024,7 @@
     {
       "id": 122,
       "name": "mr-mime",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic",
         "fairy"
@@ -1033,7 +1033,7 @@
     {
       "id": 123,
       "name": "scyther",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -1042,7 +1042,7 @@
     {
       "id": 124,
       "name": "jynx",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice",
         "psychic"
@@ -1051,7 +1051,7 @@
     {
       "id": 125,
       "name": "electabuzz",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "electric"
       ]
@@ -1059,7 +1059,7 @@
     {
       "id": 126,
       "name": "magmar",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire"
       ]
@@ -1067,7 +1067,7 @@
     {
       "id": 127,
       "name": "pinsir",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug"
       ]
@@ -1075,7 +1075,7 @@
     {
       "id": 128,
       "name": "tauros",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -1091,7 +1091,7 @@
     {
       "id": 130,
       "name": "gyarados",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "flying"
@@ -1100,7 +1100,7 @@
     {
       "id": 131,
       "name": "lapras",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "ice"
@@ -1117,7 +1117,7 @@
     {
       "id": 133,
       "name": "eevee",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -1125,7 +1125,7 @@
     {
       "id": 134,
       "name": "vaporeon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -1133,7 +1133,7 @@
     {
       "id": 135,
       "name": "jolteon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -1141,7 +1141,7 @@
     {
       "id": 136,
       "name": "flareon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire"
       ]
@@ -1149,7 +1149,7 @@
     {
       "id": 137,
       "name": "porygon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -1166,7 +1166,7 @@
     {
       "id": 139,
       "name": "omastar",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "water"
@@ -1184,7 +1184,7 @@
     {
       "id": 141,
       "name": "kabutops",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "water"
@@ -1193,7 +1193,7 @@
     {
       "id": 142,
       "name": "aerodactyl",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock",
         "flying"
@@ -1202,7 +1202,7 @@
     {
       "id": 143,
       "name": "snorlax",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -1245,7 +1245,7 @@
     {
       "id": 148,
       "name": "dragonair",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dragon"
       ]
@@ -1253,7 +1253,7 @@
     {
       "id": 149,
       "name": "dragonite",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dragon",
         "flying"
@@ -1286,7 +1286,7 @@
     {
       "id": 153,
       "name": "bayleef",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass"
       ]
@@ -1294,7 +1294,7 @@
     {
       "id": 154,
       "name": "meganium",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -1310,7 +1310,7 @@
     {
       "id": 156,
       "name": "quilava",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire"
       ]
@@ -1318,7 +1318,7 @@
     {
       "id": 157,
       "name": "typhlosion",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire"
       ]
@@ -1334,7 +1334,7 @@
     {
       "id": 159,
       "name": "croconaw",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -1342,7 +1342,7 @@
     {
       "id": 160,
       "name": "feraligatr",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -1358,7 +1358,7 @@
     {
       "id": 162,
       "name": "furret",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -1375,7 +1375,7 @@
     {
       "id": 164,
       "name": "noctowl",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "flying"
@@ -1393,7 +1393,7 @@
     {
       "id": 166,
       "name": "ledian",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -1411,7 +1411,7 @@
     {
       "id": 168,
       "name": "ariados",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "poison"
@@ -1420,7 +1420,7 @@
     {
       "id": 169,
       "name": "crobat",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "flying"
@@ -1438,7 +1438,7 @@
     {
       "id": 171,
       "name": "lanturn",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "electric"
@@ -1480,7 +1480,7 @@
     {
       "id": 176,
       "name": "togetic",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fairy",
         "flying"
@@ -1498,7 +1498,7 @@
     {
       "id": 178,
       "name": "xatu",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic",
         "flying"
@@ -1515,7 +1515,7 @@
     {
       "id": 180,
       "name": "flaaffy",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "electric"
       ]
@@ -1523,7 +1523,7 @@
     {
       "id": 181,
       "name": "ampharos",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -1531,7 +1531,7 @@
     {
       "id": 182,
       "name": "bellossom",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -1548,7 +1548,7 @@
     {
       "id": 184,
       "name": "azumarill",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "fairy"
@@ -1557,7 +1557,7 @@
     {
       "id": 185,
       "name": "sudowoodo",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock"
       ]
@@ -1565,7 +1565,7 @@
     {
       "id": 186,
       "name": "politoed",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -1582,7 +1582,7 @@
     {
       "id": 188,
       "name": "skiploom",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass",
         "flying"
@@ -1591,7 +1591,7 @@
     {
       "id": 189,
       "name": "jumpluff",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "flying"
@@ -1616,7 +1616,7 @@
     {
       "id": 192,
       "name": "sunflora",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -1642,7 +1642,7 @@
     {
       "id": 195,
       "name": "quagsire",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "ground"
@@ -1651,7 +1651,7 @@
     {
       "id": 196,
       "name": "espeon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic"
       ]
@@ -1659,7 +1659,7 @@
     {
       "id": 197,
       "name": "umbreon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark"
       ]
@@ -1676,7 +1676,7 @@
     {
       "id": 199,
       "name": "slowking",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "psychic"
@@ -1693,7 +1693,7 @@
     {
       "id": 201,
       "name": "unown",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "psychic"
       ]
@@ -1701,7 +1701,7 @@
     {
       "id": 202,
       "name": "wobbuffet",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic"
       ]
@@ -1709,7 +1709,7 @@
     {
       "id": 203,
       "name": "girafarig",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal",
         "psychic"
@@ -1726,7 +1726,7 @@
     {
       "id": 205,
       "name": "forretress",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "steel"
@@ -1752,7 +1752,7 @@
     {
       "id": 208,
       "name": "steelix",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "steel",
         "ground"
@@ -1769,7 +1769,7 @@
     {
       "id": 210,
       "name": "granbull",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fairy"
       ]
@@ -1786,7 +1786,7 @@
     {
       "id": 212,
       "name": "scizor",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "steel"
@@ -1804,7 +1804,7 @@
     {
       "id": 214,
       "name": "heracross",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "bug",
         "fighting"
@@ -1830,7 +1830,7 @@
     {
       "id": 217,
       "name": "ursaring",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -1846,7 +1846,7 @@
     {
       "id": 219,
       "name": "magcargo",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "rock"
@@ -1864,7 +1864,7 @@
     {
       "id": 221,
       "name": "piloswine",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ice",
         "ground"
@@ -1890,7 +1890,7 @@
     {
       "id": 224,
       "name": "octillery",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -1934,7 +1934,7 @@
     {
       "id": 229,
       "name": "houndoom",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "fire"
@@ -1943,7 +1943,7 @@
     {
       "id": 230,
       "name": "kingdra",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "dragon"
@@ -1960,7 +1960,7 @@
     {
       "id": 232,
       "name": "donphan",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground"
       ]
@@ -1968,7 +1968,7 @@
     {
       "id": 233,
       "name": "porygon2",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -1984,7 +1984,7 @@
     {
       "id": 235,
       "name": "smeargle",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -2000,7 +2000,7 @@
     {
       "id": 237,
       "name": "hitmontop",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -2033,7 +2033,7 @@
     {
       "id": 241,
       "name": "miltank",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal"
       ]
@@ -2041,7 +2041,7 @@
     {
       "id": 242,
       "name": "blissey",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -2082,7 +2082,7 @@
     {
       "id": 247,
       "name": "pupitar",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock",
         "ground"
@@ -2091,7 +2091,7 @@
     {
       "id": 248,
       "name": "tyranitar",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "dark"
@@ -2135,7 +2135,7 @@
     {
       "id": 253,
       "name": "grovyle",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass"
       ]
@@ -2143,7 +2143,7 @@
     {
       "id": 254,
       "name": "sceptile",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -2159,7 +2159,7 @@
     {
       "id": 256,
       "name": "combusken",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire",
         "fighting"
@@ -2168,7 +2168,7 @@
     {
       "id": 257,
       "name": "blaziken",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "fighting"
@@ -2185,7 +2185,7 @@
     {
       "id": 259,
       "name": "marshtomp",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water",
         "ground"
@@ -2194,7 +2194,7 @@
     {
       "id": 260,
       "name": "swampert",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "ground"
@@ -2211,7 +2211,7 @@
     {
       "id": 262,
       "name": "mightyena",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark"
       ]
@@ -2227,7 +2227,7 @@
     {
       "id": 264,
       "name": "linoone",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -2243,7 +2243,7 @@
     {
       "id": 266,
       "name": "silcoon",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "bug"
       ]
@@ -2251,7 +2251,7 @@
     {
       "id": 267,
       "name": "beautifly",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -2260,7 +2260,7 @@
     {
       "id": 268,
       "name": "cascoon",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "bug"
       ]
@@ -2268,7 +2268,7 @@
     {
       "id": 269,
       "name": "dustox",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "poison"
@@ -2286,7 +2286,7 @@
     {
       "id": 271,
       "name": "lombre",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water",
         "grass"
@@ -2295,7 +2295,7 @@
     {
       "id": 272,
       "name": "ludicolo",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "grass"
@@ -2312,7 +2312,7 @@
     {
       "id": 274,
       "name": "nuzleaf",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass",
         "dark"
@@ -2321,7 +2321,7 @@
     {
       "id": 275,
       "name": "shiftry",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "dark"
@@ -2339,7 +2339,7 @@
     {
       "id": 277,
       "name": "swellow",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "flying"
@@ -2357,7 +2357,7 @@
     {
       "id": 279,
       "name": "pelipper",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "flying"
@@ -2375,7 +2375,7 @@
     {
       "id": 281,
       "name": "kirlia",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "psychic",
         "fairy"
@@ -2384,7 +2384,7 @@
     {
       "id": 282,
       "name": "gardevoir",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic",
         "fairy"
@@ -2402,7 +2402,7 @@
     {
       "id": 284,
       "name": "masquerain",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -2419,7 +2419,7 @@
     {
       "id": 286,
       "name": "breloom",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "fighting"
@@ -2436,7 +2436,7 @@
     {
       "id": 288,
       "name": "vigoroth",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal"
       ]
@@ -2444,7 +2444,7 @@
     {
       "id": 289,
       "name": "slaking",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -2461,7 +2461,7 @@
     {
       "id": 291,
       "name": "ninjask",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -2470,7 +2470,7 @@
     {
       "id": 292,
       "name": "shedinja",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "ghost"
@@ -2487,7 +2487,7 @@
     {
       "id": 294,
       "name": "loudred",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal"
       ]
@@ -2495,7 +2495,7 @@
     {
       "id": 295,
       "name": "exploud",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -2511,7 +2511,7 @@
     {
       "id": 297,
       "name": "hariyama",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -2544,7 +2544,7 @@
     {
       "id": 301,
       "name": "delcatty",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -2579,7 +2579,7 @@
     {
       "id": 305,
       "name": "lairon",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "steel",
         "rock"
@@ -2588,7 +2588,7 @@
     {
       "id": 306,
       "name": "aggron",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "steel",
         "rock"
@@ -2606,7 +2606,7 @@
     {
       "id": 308,
       "name": "medicham",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting",
         "psychic"
@@ -2623,7 +2623,7 @@
     {
       "id": 310,
       "name": "manectric",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -2680,7 +2680,7 @@
     {
       "id": 317,
       "name": "swalot",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "poison"
       ]
@@ -2697,7 +2697,7 @@
     {
       "id": 319,
       "name": "sharpedo",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "dark"
@@ -2714,7 +2714,7 @@
     {
       "id": 321,
       "name": "wailord",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -2731,7 +2731,7 @@
     {
       "id": 323,
       "name": "camerupt",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "ground"
@@ -2756,7 +2756,7 @@
     {
       "id": 326,
       "name": "grumpig",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "psychic"
       ]
@@ -2780,7 +2780,7 @@
     {
       "id": 329,
       "name": "vibrava",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ground",
         "dragon"
@@ -2789,7 +2789,7 @@
     {
       "id": 330,
       "name": "flygon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground",
         "dragon"
@@ -2806,11 +2806,11 @@
     {
       "id": 332,
       "name": "cacturne",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "dark"
-      ]
+      ] 
     },
     {
       "id": 333,
@@ -2824,7 +2824,7 @@
     {
       "id": 334,
       "name": "altaria",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dragon",
         "flying"
@@ -2849,7 +2849,7 @@
     {
       "id": 337,
       "name": "lunatone",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock",
         "psychic"
@@ -2858,7 +2858,7 @@
     {
       "id": 338,
       "name": "solrock",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock",
         "psychic"
@@ -2876,7 +2876,7 @@
     {
       "id": 340,
       "name": "whiscash",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "ground"
@@ -2893,7 +2893,7 @@
     {
       "id": 342,
       "name": "crawdaunt",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "dark"
@@ -2911,7 +2911,7 @@
     {
       "id": 344,
       "name": "claydol",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground",
         "psychic"
@@ -2920,7 +2920,7 @@
     {
       "id": 345,
       "name": "lileep",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock",
         "grass"
@@ -2929,7 +2929,7 @@
     {
       "id": 346,
       "name": "cradily",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "grass"
@@ -2938,7 +2938,7 @@
     {
       "id": 347,
       "name": "anorith",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock",
         "bug"
@@ -2947,7 +2947,7 @@
     {
       "id": 348,
       "name": "armaldo",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "bug"
@@ -2964,7 +2964,7 @@
     {
       "id": 350,
       "name": "milotic",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -2972,7 +2972,7 @@
     {
       "id": 351,
       "name": "castform",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -2980,7 +2980,7 @@
     {
       "id": 352,
       "name": "kecleon",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal"
       ]
@@ -2996,7 +2996,7 @@
     {
       "id": 354,
       "name": "banette",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost"
       ]
@@ -3012,7 +3012,7 @@
     {
       "id": 356,
       "name": "dusclops",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ghost"
       ]
@@ -3020,7 +3020,7 @@
     {
       "id": 357,
       "name": "tropius",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass",
         "flying"
@@ -3029,7 +3029,7 @@
     {
       "id": 358,
       "name": "chimecho",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "psychic"
       ]
@@ -3037,7 +3037,7 @@
     {
       "id": 359,
       "name": "absol",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark"
       ]
@@ -3061,7 +3061,7 @@
     {
       "id": 362,
       "name": "glalie",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice"
       ]
@@ -3078,7 +3078,7 @@
     {
       "id": 364,
       "name": "sealeo",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice",
         "water"
@@ -3087,7 +3087,7 @@
     {
       "id": 365,
       "name": "walrein",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice",
         "water"
@@ -3104,7 +3104,7 @@
     {
       "id": 367,
       "name": "huntail",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -3112,7 +3112,7 @@
     {
       "id": 368,
       "name": "gorebyss",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -3120,7 +3120,7 @@
     {
       "id": 369,
       "name": "relicanth",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water",
         "rock"
@@ -3129,7 +3129,7 @@
     {
       "id": 370,
       "name": "luvdisc",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -3145,7 +3145,7 @@
     {
       "id": 372,
       "name": "shelgon",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dragon"
       ]
@@ -3153,7 +3153,7 @@
     {
       "id": 373,
       "name": "salamence",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dragon",
         "flying"
@@ -3171,7 +3171,7 @@
     {
       "id": 375,
       "name": "metang",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "steel",
         "psychic"
@@ -3180,7 +3180,7 @@
     {
       "id": 376,
       "name": "metagross",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "steel",
         "psychic"
@@ -3281,7 +3281,7 @@
     {
       "id": 388,
       "name": "grotle",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass"
       ]
@@ -3289,7 +3289,7 @@
     {
       "id": 389,
       "name": "torterra",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "ground"
@@ -3306,7 +3306,7 @@
     {
       "id": 391,
       "name": "monferno",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire",
         "fighting"
@@ -3315,7 +3315,7 @@
     {
       "id": 392,
       "name": "infernape",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "fighting"
@@ -3332,7 +3332,7 @@
     {
       "id": 394,
       "name": "prinplup",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -3340,7 +3340,7 @@
     {
       "id": 395,
       "name": "empoleon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "steel"
@@ -3358,7 +3358,7 @@
     {
       "id": 397,
       "name": "staravia",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal",
         "flying"
@@ -3367,7 +3367,7 @@
     {
       "id": 398,
       "name": "staraptor",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "flying"
@@ -3384,7 +3384,7 @@
     {
       "id": 400,
       "name": "bibarel",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "water"
@@ -3401,7 +3401,7 @@
     {
       "id": 402,
       "name": "kricketune",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug"
       ]
@@ -3417,7 +3417,7 @@
     {
       "id": 404,
       "name": "luxio",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "electric"
       ]
@@ -3425,7 +3425,7 @@
     {
       "id": 405,
       "name": "luxray",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -3442,7 +3442,7 @@
     {
       "id": 407,
       "name": "roserade",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "poison"
@@ -3451,7 +3451,7 @@
     {
       "id": 408,
       "name": "cranidos",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock"
       ]
@@ -3459,7 +3459,7 @@
     {
       "id": 409,
       "name": "rampardos",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock"
       ]
@@ -3467,7 +3467,7 @@
     {
       "id": 410,
       "name": "shieldon",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock",
         "steel"
@@ -3476,7 +3476,7 @@
     {
       "id": 411,
       "name": "bastiodon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "steel"
@@ -3493,7 +3493,7 @@
     {
       "id": 413,
       "name": "wormadam",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "grass"
@@ -3502,7 +3502,7 @@
     {
       "id": 414,
       "name": "mothim",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -3520,7 +3520,7 @@
     {
       "id": 416,
       "name": "vespiquen",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -3545,7 +3545,7 @@
     {
       "id": 419,
       "name": "floatzel",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -3561,7 +3561,7 @@
     {
       "id": 421,
       "name": "cherrim",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -3577,7 +3577,7 @@
     {
       "id": 423,
       "name": "gastrodon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "ground"
@@ -3586,7 +3586,7 @@
     {
       "id": 424,
       "name": "ambipom",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -3603,7 +3603,7 @@
     {
       "id": 426,
       "name": "drifblim",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost",
         "flying"
@@ -3620,7 +3620,7 @@
     {
       "id": 428,
       "name": "lopunny",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -3628,7 +3628,7 @@
     {
       "id": 429,
       "name": "mismagius",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost"
       ]
@@ -3636,7 +3636,7 @@
     {
       "id": 430,
       "name": "honchkrow",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "flying"
@@ -3653,7 +3653,7 @@
     {
       "id": 432,
       "name": "purugly",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -3678,7 +3678,7 @@
     {
       "id": 435,
       "name": "skuntank",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "dark"
@@ -3696,7 +3696,7 @@
     {
       "id": 437,
       "name": "bronzong",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "steel",
         "psychic"
@@ -3730,7 +3730,7 @@
     {
       "id": 441,
       "name": "chatot",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal",
         "flying"
@@ -3739,7 +3739,7 @@
     {
       "id": 442,
       "name": "spiritomb",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost",
         "dark"
@@ -3757,7 +3757,7 @@
     {
       "id": 444,
       "name": "gabite",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dragon",
         "ground"
@@ -3766,7 +3766,7 @@
     {
       "id": 445,
       "name": "garchomp",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dragon",
         "ground"
@@ -3791,7 +3791,7 @@
     {
       "id": 448,
       "name": "lucario",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting",
         "steel"
@@ -3808,7 +3808,7 @@
     {
       "id": 450,
       "name": "hippowdon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground"
       ]
@@ -3825,7 +3825,7 @@
     {
       "id": 452,
       "name": "drapion",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "dark"
@@ -3843,7 +3843,7 @@
     {
       "id": 454,
       "name": "toxicroak",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "fighting"
@@ -3868,7 +3868,7 @@
     {
       "id": 457,
       "name": "lumineon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -3894,7 +3894,7 @@
     {
       "id": 460,
       "name": "abomasnow",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "ice"
@@ -3903,7 +3903,7 @@
     {
       "id": 461,
       "name": "weavile",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "ice"
@@ -3912,7 +3912,7 @@
     {
       "id": 462,
       "name": "magnezone",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric",
         "steel"
@@ -3921,7 +3921,7 @@
     {
       "id": 463,
       "name": "lickilicky",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -3929,7 +3929,7 @@
     {
       "id": 464,
       "name": "rhyperior",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground",
         "rock"
@@ -3938,7 +3938,7 @@
     {
       "id": 465,
       "name": "tangrowth",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -3946,7 +3946,7 @@
     {
       "id": 466,
       "name": "electivire",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -3954,7 +3954,7 @@
     {
       "id": 467,
       "name": "magmortar",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire"
       ]
@@ -3962,7 +3962,7 @@
     {
       "id": 468,
       "name": "togekiss",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fairy",
         "flying"
@@ -3971,7 +3971,7 @@
     {
       "id": 469,
       "name": "yanmega",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -3980,7 +3980,7 @@
     {
       "id": 470,
       "name": "leafeon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -3988,7 +3988,7 @@
     {
       "id": 471,
       "name": "glaceon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice"
       ]
@@ -3996,7 +3996,7 @@
     {
       "id": 472,
       "name": "gliscor",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground",
         "flying"
@@ -4005,7 +4005,7 @@
     {
       "id": 473,
       "name": "mamoswine",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice",
         "ground"
@@ -4014,7 +4014,7 @@
     {
       "id": 474,
       "name": "porygon-z",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -4022,7 +4022,7 @@
     {
       "id": 475,
       "name": "gallade",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic",
         "fighting"
@@ -4031,7 +4031,7 @@
     {
       "id": 476,
       "name": "probopass",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "steel"
@@ -4040,7 +4040,7 @@
     {
       "id": 477,
       "name": "dusknoir",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost"
       ]
@@ -4048,7 +4048,7 @@
     {
       "id": 478,
       "name": "froslass",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice",
         "ghost"
@@ -4057,7 +4057,7 @@
     {
       "id": 479,
       "name": "rotom",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "electric",
         "ghost"
@@ -4199,7 +4199,7 @@
     {
       "id": 496,
       "name": "servine",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass"
       ]
@@ -4207,7 +4207,7 @@
     {
       "id": 497,
       "name": "serperior",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -4223,7 +4223,7 @@
     {
       "id": 499,
       "name": "pignite",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire",
         "fighting"
@@ -4232,7 +4232,7 @@
     {
       "id": 500,
       "name": "emboar",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "fighting"
@@ -4249,7 +4249,7 @@
     {
       "id": 502,
       "name": "dewott",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -4257,7 +4257,7 @@
     {
       "id": 503,
       "name": "samurott",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -4273,7 +4273,7 @@
     {
       "id": 505,
       "name": "watchog",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -4289,7 +4289,7 @@
     {
       "id": 507,
       "name": "herdier",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal"
       ]
@@ -4297,7 +4297,7 @@
     {
       "id": 508,
       "name": "stoutland",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -4313,7 +4313,7 @@
     {
       "id": 510,
       "name": "liepard",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark"
       ]
@@ -4329,7 +4329,7 @@
     {
       "id": 512,
       "name": "simisage",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -4345,7 +4345,7 @@
     {
       "id": 514,
       "name": "simisear",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire"
       ]
@@ -4361,7 +4361,7 @@
     {
       "id": 516,
       "name": "simipour",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -4377,7 +4377,7 @@
     {
       "id": 518,
       "name": "musharna",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic"
       ]
@@ -4394,7 +4394,7 @@
     {
       "id": 520,
       "name": "tranquill",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal",
         "flying"
@@ -4403,7 +4403,7 @@
     {
       "id": 521,
       "name": "unfezant",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "flying"
@@ -4420,7 +4420,7 @@
     {
       "id": 523,
       "name": "zebstrika",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -4436,7 +4436,7 @@
     {
       "id": 525,
       "name": "boldore",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock"
       ]
@@ -4444,7 +4444,7 @@
     {
       "id": 526,
       "name": "gigalith",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock"
       ]
@@ -4461,7 +4461,7 @@
     {
       "id": 528,
       "name": "swoobat",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic",
         "flying"
@@ -4478,7 +4478,7 @@
     {
       "id": 530,
       "name": "excadrill",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground",
         "steel"
@@ -4487,7 +4487,7 @@
     {
       "id": 531,
       "name": "audino",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal"
       ]
@@ -4503,7 +4503,7 @@
     {
       "id": 533,
       "name": "gurdurr",
-      "rarity": "common",
+      "rarity": "uncomoon",
       "types": [
         "fighting"
       ]
@@ -4511,7 +4511,7 @@
     {
       "id": 534,
       "name": "conkeldurr",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -4527,7 +4527,7 @@
     {
       "id": 536,
       "name": "palpitoad",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water",
         "ground"
@@ -4536,7 +4536,7 @@
     {
       "id": 537,
       "name": "seismitoad",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "ground"
@@ -4570,7 +4570,7 @@
     {
       "id": 541,
       "name": "swadloon",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "bug",
         "grass"
@@ -4579,7 +4579,7 @@
     {
       "id": 542,
       "name": "leavanny",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "grass"
@@ -4597,7 +4597,7 @@
     {
       "id": 544,
       "name": "whirlipede",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "bug",
         "poison"
@@ -4606,7 +4606,7 @@
     {
       "id": 545,
       "name": "scolipede",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "poison"
@@ -4624,7 +4624,7 @@
     {
       "id": 547,
       "name": "whimsicott",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "fairy"
@@ -4641,7 +4641,7 @@
     {
       "id": 549,
       "name": "lilligant",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -4666,7 +4666,7 @@
     {
       "id": 552,
       "name": "krokorok",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ground",
         "dark"
@@ -4675,7 +4675,7 @@
     {
       "id": 553,
       "name": "krookodile",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground",
         "dark"
@@ -4692,7 +4692,7 @@
     {
       "id": 555,
       "name": "darmanitan",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire"
       ]
@@ -4717,7 +4717,7 @@
     {
       "id": 558,
       "name": "crustle",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "rock"
@@ -4735,7 +4735,7 @@
     {
       "id": 560,
       "name": "scrafty",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "fighting"
@@ -4744,7 +4744,7 @@
     {
       "id": 561,
       "name": "sigilyph",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "psychic",
         "flying"
@@ -4761,7 +4761,7 @@
     {
       "id": 563,
       "name": "cofagrigus",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost"
       ]
@@ -4778,7 +4778,7 @@
     {
       "id": 565,
       "name": "carracosta",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "rock"
@@ -4796,7 +4796,7 @@
     {
       "id": 567,
       "name": "archeops",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "flying"
@@ -4813,7 +4813,7 @@
     {
       "id": 569,
       "name": "garbodor",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison"
       ]
@@ -4821,7 +4821,7 @@
     {
       "id": 570,
       "name": "zorua",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dark"
       ]
@@ -4829,7 +4829,7 @@
     {
       "id": 571,
       "name": "zoroark",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark"
       ]
@@ -4845,7 +4845,7 @@
     {
       "id": 573,
       "name": "cinccino",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -4861,7 +4861,7 @@
     {
       "id": 575,
       "name": "gothorita",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "psychic"
       ]
@@ -4869,7 +4869,7 @@
     {
       "id": 576,
       "name": "gothitelle",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic"
       ]
@@ -4885,7 +4885,7 @@
     {
       "id": 578,
       "name": "duosion",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "psychic"
       ]
@@ -4893,7 +4893,7 @@
     {
       "id": 579,
       "name": "reuniclus",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic"
       ]
@@ -4910,7 +4910,7 @@
     {
       "id": 581,
       "name": "swanna",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "flying"
@@ -4927,7 +4927,7 @@
     {
       "id": 583,
       "name": "vanillish",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ice"
       ]
@@ -4935,7 +4935,7 @@
     {
       "id": 584,
       "name": "vanilluxe",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice"
       ]
@@ -4952,7 +4952,7 @@
     {
       "id": 586,
       "name": "sawsbuck",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "grass"
@@ -4978,7 +4978,7 @@
     {
       "id": 589,
       "name": "escavalier",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "steel"
@@ -4996,7 +4996,7 @@
     {
       "id": 591,
       "name": "amoonguss",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "poison"
@@ -5014,7 +5014,7 @@
     {
       "id": 593,
       "name": "jellicent",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "ghost"
@@ -5040,7 +5040,7 @@
     {
       "id": 596,
       "name": "galvantula",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "electric"
@@ -5058,7 +5058,7 @@
     {
       "id": 598,
       "name": "ferrothorn",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "steel"
@@ -5075,7 +5075,7 @@
     {
       "id": 600,
       "name": "klang",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "steel"
       ]
@@ -5083,7 +5083,7 @@
     {
       "id": 601,
       "name": "klinklang",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "steel"
       ]
@@ -5099,7 +5099,7 @@
     {
       "id": 603,
       "name": "eelektrik",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "electric"
       ]
@@ -5107,7 +5107,7 @@
     {
       "id": 604,
       "name": "eelektross",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -5123,7 +5123,7 @@
     {
       "id": 606,
       "name": "beheeyem",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic"
       ]
@@ -5140,7 +5140,7 @@
     {
       "id": 608,
       "name": "lampent",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "ghost",
         "fire"
@@ -5149,7 +5149,7 @@
     {
       "id": 609,
       "name": "chandelure",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost",
         "fire"
@@ -5166,7 +5166,7 @@
     {
       "id": 611,
       "name": "fraxure",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dragon"
       ]
@@ -5174,7 +5174,7 @@
     {
       "id": 612,
       "name": "haxorus",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dragon"
       ]
@@ -5190,7 +5190,7 @@
     {
       "id": 614,
       "name": "beartic",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice"
       ]
@@ -5214,7 +5214,7 @@
     {
       "id": 617,
       "name": "accelgor",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug"
       ]
@@ -5239,7 +5239,7 @@
     {
       "id": 620,
       "name": "mienshao",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -5247,7 +5247,7 @@
     {
       "id": 621,
       "name": "druddigon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dragon"
       ]
@@ -5264,7 +5264,7 @@
     {
       "id": 623,
       "name": "golurk",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground",
         "ghost"
@@ -5282,7 +5282,7 @@
     {
       "id": 625,
       "name": "bisharp",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "steel"
@@ -5291,7 +5291,7 @@
     {
       "id": 626,
       "name": "bouffalant",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal"
       ]
@@ -5308,7 +5308,7 @@
     {
       "id": 628,
       "name": "braviary",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "flying"
@@ -5326,7 +5326,7 @@
     {
       "id": 630,
       "name": "mandibuzz",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "flying"
@@ -5361,7 +5361,7 @@
     {
       "id": 634,
       "name": "zweilous",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dark",
         "dragon"
@@ -5370,7 +5370,7 @@
     {
       "id": 635,
       "name": "hydreigon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "dragon"
@@ -5388,7 +5388,7 @@
     {
       "id": 637,
       "name": "volcarona",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "fire"
@@ -5512,7 +5512,7 @@
     {
       "id": 651,
       "name": "quilladin",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass"
       ]
@@ -5520,7 +5520,7 @@
     {
       "id": 652,
       "name": "chesnaught",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "fighting"
@@ -5537,7 +5537,7 @@
     {
       "id": 654,
       "name": "braixen",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire"
       ]
@@ -5545,7 +5545,7 @@
     {
       "id": 655,
       "name": "delphox",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "psychic"
@@ -5562,7 +5562,7 @@
     {
       "id": 657,
       "name": "frogadier",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -5570,7 +5570,7 @@
     {
       "id": 658,
       "name": "greninja",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "dark"
@@ -5587,7 +5587,7 @@
     {
       "id": 660,
       "name": "diggersby",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "ground"
@@ -5605,7 +5605,7 @@
     {
       "id": 662,
       "name": "fletchinder",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire",
         "flying"
@@ -5614,7 +5614,7 @@
     {
       "id": 663,
       "name": "talonflame",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "flying"
@@ -5631,7 +5631,7 @@
     {
       "id": 665,
       "name": "spewpa",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "bug"
       ]
@@ -5639,7 +5639,7 @@
     {
       "id": 666,
       "name": "vivillon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "flying"
@@ -5657,7 +5657,7 @@
     {
       "id": 668,
       "name": "pyroar",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "normal"
@@ -5674,7 +5674,7 @@
     {
       "id": 670,
       "name": "floette",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fairy"
       ]
@@ -5682,7 +5682,7 @@
     {
       "id": 671,
       "name": "florges",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fairy"
       ]
@@ -5698,7 +5698,7 @@
     {
       "id": 673,
       "name": "gogoat",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -5714,7 +5714,7 @@
     {
       "id": 675,
       "name": "pangoro",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting",
         "dark"
@@ -5739,7 +5739,7 @@
     {
       "id": 678,
       "name": "meowstic",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic"
       ]
@@ -5756,7 +5756,7 @@
     {
       "id": 680,
       "name": "doublade",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "steel",
         "ghost"
@@ -5765,7 +5765,7 @@
     {
       "id": 681,
       "name": "aegislash",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "steel",
         "ghost"
@@ -5782,7 +5782,7 @@
     {
       "id": 683,
       "name": "aromatisse",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fairy"
       ]
@@ -5798,7 +5798,7 @@
     {
       "id": 685,
       "name": "slurpuff",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fairy"
       ]
@@ -5815,7 +5815,7 @@
     {
       "id": 687,
       "name": "malamar",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "psychic"
@@ -5833,7 +5833,7 @@
     {
       "id": 689,
       "name": "barbaracle",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "water"
@@ -5851,7 +5851,7 @@
     {
       "id": 691,
       "name": "dragalge",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "dragon"
@@ -5868,7 +5868,7 @@
     {
       "id": 693,
       "name": "clawitzer",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -5885,7 +5885,7 @@
     {
       "id": 695,
       "name": "heliolisk",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric",
         "normal"
@@ -5903,7 +5903,7 @@
     {
       "id": 697,
       "name": "tyrantrum",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "dragon"
@@ -5921,7 +5921,7 @@
     {
       "id": 699,
       "name": "aurorus",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "ice"
@@ -5930,7 +5930,7 @@
     {
       "id": 700,
       "name": "sylveon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fairy"
       ]
@@ -5973,7 +5973,7 @@
     {
       "id": 705,
       "name": "sliggoo",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dragon"
       ]
@@ -5981,7 +5981,7 @@
     {
       "id": 706,
       "name": "goodra",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dragon"
       ]
@@ -6007,7 +6007,7 @@
     {
       "id": 709,
       "name": "trevenant",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost",
         "grass"
@@ -6025,7 +6025,7 @@
     {
       "id": 711,
       "name": "gourgeist",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost",
         "grass"
@@ -6042,7 +6042,7 @@
     {
       "id": 713,
       "name": "avalugg",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice"
       ]
@@ -6059,7 +6059,7 @@
     {
       "id": 715,
       "name": "noivern",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "flying",
         "dragon"
@@ -6130,7 +6130,7 @@
     {
       "id": 723,
       "name": "dartrix",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass",
         "flying"
@@ -6139,7 +6139,7 @@
     {
       "id": 724,
       "name": "decidueye",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "ghost"
@@ -6156,7 +6156,7 @@
     {
       "id": 726,
       "name": "torracat",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire"
       ]
@@ -6164,7 +6164,7 @@
     {
       "id": 727,
       "name": "incineroar",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "dark"
@@ -6181,7 +6181,7 @@
     {
       "id": 729,
       "name": "brionne",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -6189,7 +6189,7 @@
     {
       "id": 730,
       "name": "primarina",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "fairy"
@@ -6207,7 +6207,7 @@
     {
       "id": 732,
       "name": "trumbeak",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal",
         "flying"
@@ -6216,7 +6216,7 @@
     {
       "id": 733,
       "name": "toucannon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "flying"
@@ -6233,7 +6233,7 @@
     {
       "id": 735,
       "name": "gumshoos",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -6249,7 +6249,7 @@
     {
       "id": 737,
       "name": "charjabug",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "bug",
         "electric"
@@ -6258,7 +6258,7 @@
     {
       "id": 738,
       "name": "vikavolt",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "electric"
@@ -6275,7 +6275,7 @@
     {
       "id": 740,
       "name": "crabominable",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting",
         "ice"
@@ -6302,7 +6302,7 @@
     {
       "id": 743,
       "name": "ribombee",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "fairy"
@@ -6319,7 +6319,7 @@
     {
       "id": 745,
       "name": "lycanroc",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock"
       ]
@@ -6344,7 +6344,7 @@
     {
       "id": 748,
       "name": "toxapex",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "water"
@@ -6361,7 +6361,7 @@
     {
       "id": 750,
       "name": "mudsdale",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground"
       ]
@@ -6378,7 +6378,7 @@
     {
       "id": 752,
       "name": "araquanid",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "bug"
@@ -6395,7 +6395,7 @@
     {
       "id": 754,
       "name": "lurantis",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -6412,7 +6412,7 @@
     {
       "id": 756,
       "name": "shiinotic",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "fairy"
@@ -6430,7 +6430,7 @@
     {
       "id": 758,
       "name": "salazzle",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "poison",
         "fire"
@@ -6448,7 +6448,7 @@
     {
       "id": 760,
       "name": "bewear",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal",
         "fighting"
@@ -6465,7 +6465,7 @@
     {
       "id": 762,
       "name": "steenee",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass"
       ]
@@ -6473,7 +6473,7 @@
     {
       "id": 763,
       "name": "tsareena",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -6515,7 +6515,7 @@
     {
       "id": 768,
       "name": "golisopod",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "water"
@@ -6533,7 +6533,7 @@
     {
       "id": 770,
       "name": "palossand",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost",
         "ground"
@@ -6550,7 +6550,7 @@
     {
       "id": 772,
       "name": "type-null",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "normal"
       ]
@@ -6558,7 +6558,7 @@
     {
       "id": 773,
       "name": "silvally",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -6645,7 +6645,7 @@
     {
       "id": 783,
       "name": "hakamo-o",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dragon",
         "fighting"
@@ -6654,7 +6654,7 @@
     {
       "id": 784,
       "name": "kommo-o",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dragon",
         "fighting"
@@ -6733,7 +6733,7 @@
     {
       "id": 793,
       "name": "nihilego",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "rock",
         "poison"
@@ -6742,7 +6742,7 @@
     {
       "id": 794,
       "name": "buzzwole",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "bug",
         "fighting"
@@ -6751,7 +6751,7 @@
     {
       "id": 795,
       "name": "pheromosa",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "bug",
         "fighting"
@@ -6760,7 +6760,7 @@
     {
       "id": 796,
       "name": "xurkitree",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "electric"
       ]
@@ -6768,7 +6768,7 @@
     {
       "id": 797,
       "name": "celesteela",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "steel",
         "flying"
@@ -6777,7 +6777,7 @@
     {
       "id": 798,
       "name": "kartana",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "grass",
         "steel"
@@ -6786,7 +6786,7 @@
     {
       "id": 799,
       "name": "guzzlord",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "dark",
         "dragon"
@@ -6821,7 +6821,7 @@
     {
       "id": 803,
       "name": "poipole",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "poison"
       ]
@@ -6829,7 +6829,7 @@
     {
       "id": 804,
       "name": "naganadel",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "poison",
         "dragon"
@@ -6838,7 +6838,7 @@
     {
       "id": 805,
       "name": "stakataka",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "rock",
         "steel"
@@ -6847,7 +6847,7 @@
     {
       "id": 806,
       "name": "blacephalon",
-      "rarity": "common",
+      "rarity": "ultra-beast",
       "types": [
         "fire",
         "ghost"
@@ -6888,7 +6888,7 @@
     {
       "id": 811,
       "name": "thwackey",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass"
       ]
@@ -6896,7 +6896,7 @@
     {
       "id": 812,
       "name": "rillaboom",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -6912,7 +6912,7 @@
     {
       "id": 814,
       "name": "raboot",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "fire"
       ]
@@ -6920,7 +6920,7 @@
     {
       "id": 815,
       "name": "cinderace",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire"
       ]
@@ -6936,7 +6936,7 @@
     {
       "id": 817,
       "name": "drizzile",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water"
       ]
@@ -6944,7 +6944,7 @@
     {
       "id": 818,
       "name": "inteleon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -6960,7 +6960,7 @@
     {
       "id": 820,
       "name": "greedent",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -6976,7 +6976,7 @@
     {
       "id": 822,
       "name": "corvisquire",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "flying"
       ]
@@ -6984,7 +6984,7 @@
     {
       "id": 823,
       "name": "corviknight",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "flying",
         "steel"
@@ -7001,7 +7001,7 @@
     {
       "id": 825,
       "name": "dottler",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "bug",
         "psychic"
@@ -7010,7 +7010,7 @@
     {
       "id": 826,
       "name": "orbeetle",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "bug",
         "psychic"
@@ -7027,7 +7027,7 @@
     {
       "id": 828,
       "name": "thievul",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark"
       ]
@@ -7043,7 +7043,7 @@
     {
       "id": 830,
       "name": "eldegoss",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass"
       ]
@@ -7059,7 +7059,7 @@
     {
       "id": 832,
       "name": "dubwool",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "normal"
       ]
@@ -7075,7 +7075,7 @@
     {
       "id": 834,
       "name": "drednaw",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water",
         "rock"
@@ -7092,7 +7092,7 @@
     {
       "id": 836,
       "name": "boltund",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric"
       ]
@@ -7108,7 +7108,7 @@
     {
       "id": 838,
       "name": "carkol",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "rock",
         "fire"
@@ -7117,7 +7117,7 @@
     {
       "id": 839,
       "name": "coalossal",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "rock",
         "fire"
@@ -7135,7 +7135,7 @@
     {
       "id": 841,
       "name": "flapple",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "grass",
         "dragon"
@@ -7144,7 +7144,7 @@
     {
       "id": 842,
       "name": "appletun",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "grass",
         "dragon"
@@ -7161,7 +7161,7 @@
     {
       "id": 844,
       "name": "sandaconda",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground"
       ]
@@ -7186,7 +7186,7 @@
     {
       "id": 847,
       "name": "barraskewda",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "water"
       ]
@@ -7203,7 +7203,7 @@
     {
       "id": 849,
       "name": "toxtricity",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "electric",
         "poison"
@@ -7221,7 +7221,7 @@
     {
       "id": 851,
       "name": "centiskorch",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fire",
         "bug"
@@ -7238,7 +7238,7 @@
     {
       "id": 853,
       "name": "grapploct",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -7254,7 +7254,7 @@
     {
       "id": 855,
       "name": "polteageist",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost"
       ]
@@ -7270,7 +7270,7 @@
     {
       "id": 857,
       "name": "hattrem",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "psychic"
       ]
@@ -7278,7 +7278,7 @@
     {
       "id": 858,
       "name": "hatterene",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "psychic",
         "fairy"
@@ -7296,7 +7296,7 @@
     {
       "id": 860,
       "name": "morgrem",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dark",
         "fairy"
@@ -7305,7 +7305,7 @@
     {
       "id": 861,
       "name": "grimmsnarl",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "fairy"
@@ -7314,7 +7314,7 @@
     {
       "id": 862,
       "name": "obstagoon",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dark",
         "normal"
@@ -7323,7 +7323,7 @@
     {
       "id": 863,
       "name": "perrserker",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "steel"
       ]
@@ -7331,7 +7331,7 @@
     {
       "id": 864,
       "name": "cursola",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ghost"
       ]
@@ -7339,7 +7339,7 @@
     {
       "id": 865,
       "name": "sirfetchd",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fighting"
       ]
@@ -7347,7 +7347,7 @@
     {
       "id": 866,
       "name": "mr-rime",
-      "rarity": "common",
+      "rarity": "tstr",
       "types": [
         "ice",
         "psychic"
@@ -7356,7 +7356,7 @@
     {
       "id": 867,
       "name": "runerigus",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ground",
         "ghost"
@@ -7373,7 +7373,7 @@
     {
       "id": 869,
       "name": "alcremie",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "fairy"
       ]
@@ -7406,7 +7406,7 @@
     {
       "id": 873,
       "name": "frosmoth",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "ice",
         "bug"
@@ -7457,7 +7457,7 @@
     {
       "id": 879,
       "name": "copperajah",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "steel"
       ]
@@ -7465,7 +7465,7 @@
     {
       "id": 880,
       "name": "dracozolt",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "electric",
         "dragon"
@@ -7474,7 +7474,7 @@
     {
       "id": 881,
       "name": "arctozolt",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "electric",
         "ice"
@@ -7483,7 +7483,7 @@
     {
       "id": 882,
       "name": "dracovish",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water",
         "dragon"
@@ -7492,7 +7492,7 @@
     {
       "id": 883,
       "name": "arctovish",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "water",
         "ice"
@@ -7519,7 +7519,7 @@
     {
       "id": 886,
       "name": "drakloak",
-      "rarity": "common",
+      "rarity": "uncommon",
       "types": [
         "dragon",
         "ghost"
@@ -7528,7 +7528,7 @@
     {
       "id": 887,
       "name": "dragapult",
-      "rarity": "common",
+      "rarity": "rare",
       "types": [
         "dragon",
         "ghost"

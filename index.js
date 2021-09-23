@@ -35,20 +35,20 @@ app.get("/pokemon/:idOrName", (req, res) => {
   return res.send(pokemon);
 });
 
-// Pega os pokemons  apenas  pelo tipo tipo
-app.get("/pokemon/rarity/:type", (req, res) => {
+// Pega os pokemon  apenas  pela raridade
+app.get("/pokemon/rarities/:rarity", (req, res) => {
   res.type("json");
-  const { type } = req.params;
+  const { rarity } = req.params;
 
-  const rarity = pokemonDB.pokemons.filter((e) => {
-    return e.rarity == type;
+  const result = pokemonDB.pokemons.filter((e) => {
+    return e.rarity === rarity;
   });
 
-  if (rarity.length === 0) {
+  if (result.length === 0) {
     res.statusCode = 404;
-    return res.send({ Error: "type not found" });
+    return res.send({ Error: "rarity not found" });
   }
-  return res.send(rarity);
+  return res.send(result);
 });
 
 app.get("/pokemon/raridade/:type/:idOrName", (req, res) => {
@@ -94,6 +94,7 @@ app.get("/pokemon/types/:type", (req, res) => {
 
   res.send(result);
 });
+
 app.listen(process.env.PORT || 8080, () => {
   console.log("server running on port 8080");
 });
