@@ -38,7 +38,7 @@ app.get("/pokemon/:idOrName", (req, res) => {
   const { idOrName } = req.params;
 
   if (!isNaN(req.params.idOrName)) {
-    const pokemon = pokemonDB.pokemons.find((e) => e.id == idOrName);
+    const pokemon = pokemons.find((e) => e.id == idOrName);
 
     if (!pokemon) {
       res.statusCode = 404;
@@ -47,7 +47,7 @@ app.get("/pokemon/:idOrName", (req, res) => {
 
     return res.send(pokemon);
   }
-  const pokemon = pokemonDB.pokemons.find(
+  const pokemon = pokemons.find(
     (e) => e.name === idOrName.toLowerCase()
   );
   if (!pokemon) {
