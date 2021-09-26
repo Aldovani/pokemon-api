@@ -1,5 +1,4 @@
 const express = require("express");
-const res = require("express/lib/response");
 const { pokemons } = require("./data/pokemonDb.json");
 const app = express();
 
@@ -25,7 +24,7 @@ app.get("/pokemon/random", (req, res) => {
     
     const chance = chancesSpawn[pokemons[pokemonId].rarity];
 
-    if (randomNumber(12,1) === 1) {
+    if (randomNumber(16,1) === 1) {
       res.status=204
       return res.send({ statusCode: 204 });
     } else if (randomNumber(100,1) <= chance) {
