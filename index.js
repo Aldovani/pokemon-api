@@ -1,13 +1,36 @@
 const express = require("express");
-const pokemonDB = require("./data/pokemonDb.json");
+const res = require("express/lib/response");
+const { pokemons } = require("./data/pokemonDb.json");
 const app = express();
+
+const chancesSpawn = {
+  "ultra-beast": 1,
+  legendary: 1,
+  mythical: 3,
+  rare: 10,
+  uncommon: 30,
+  common: 90,
+};
 
 app.get("/", (req, res) => {
   res.send("👍");
 });
 
 app.get("/pokemon", (req, res) => {
-  res.send(pokemonDB);
+  res.send(pokemons);
+});
+app.get("/pokemon/random", (req, res) => {
+  while (true) {
+    const pokemonId = Math.floor(Math.random() * (898 - 1) + 1);
+    const chance = chancesSpawn[pokemons[pokemonId].rarity];
+    console.log(pokemons[pokemonId])
+
+    if (Math.round(Math.random() * 8) === 1) {
+      return res.send({ statusCode: 204 });
+    } else if (Math.floor(Math.random() * (100 - 1) + 1) <= chance) {
+      return res.send(pokemons[pokemonId]);
+    }
+  }
 });
 
 // traz apenas um pokemons   pelo  id ou nome
@@ -35,66 +58,9 @@ app.get("/pokemon/:idOrName", (req, res) => {
   return res.send(pokemon);
 });
 
-// Pega os pokemon  apenas  pela raridade
-app.get("/pokemon/rarities/:rarity", (req, res) => {
-  res.type("json");
-  const { rarity } = req.params;
 
-  const result = pokemonDB.pokemons.filter((e) => {
-    return e.rarity === rarity;
-  });
-
-  if (result.length === 0) {
-    res.statusCode = 404;
-    return res.send({ Error: "rarity not found" });
-  }
-  return res.send(result);
-});
-
-app.get("/pokemon/raridade/:type/:idOrName", (req, res) => {
-  const { idOrName, type } = req.params;
-  res.type("json");
-
-  const result = pokemonDB.pokemons.filter(
-    (e) => e.rarity.toLowerCase() == type.toLowerCase()
-  );
-
-  if (result.length === 0) {
-    res.statusCode = 404;
-    return res.send({ Error: "type not found" });
-  }
-
-  if (!isNaN(idOrName)) {
-    const result2 = result.find((e) => e.id == idOrName);
-    if (!result2) {
-      res.statusCode = 404;
-      return res.send({ Error: "pokemon not found" });
-    }
-    return res.send(result2);
-  }
-  const result2 = result.find(
-    (e) => e.name.toLowerCase() == idOrName.toLowerCase()
-  );
-  if (!result2) {
-    res.statusCode = 404;
-    return res.send({ Error: `pokemon ${req.params.idName} not found` });
-  }
-  return res.send(result2);
-});
-
-app.get("/pokemon/types/:type", (req, res) => {
-  const { type } = req.params;
-  const result = pokemonDB.pokemons.filter((types) =>
-    types.types.includes(type)
-  );
-  if (result.length === 0) {
-    res.statusCode = 404;
-    return res.send({ Error: `Type ${type} not found` });
-  }
-
-  res.send(result);
-});
 
 app.listen(process.env.PORT || 8080, () => {
   console.log("server running on port 8080");
 });
+
