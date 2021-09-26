@@ -23,9 +23,8 @@ app.get("/pokemon/random", (req, res) => {
   while (true) {
     const pokemonId = Math.floor(Math.random() * (898 - 1) + 1);
     const chance = chancesSpawn[pokemons[pokemonId].rarity];
-    console.log(pokemons[pokemonId])
 
-    if (Math.round(Math.random() * 8) === 1) {
+    if (Math.floor(Math.random() * 10) === 1) {
       res.status=204
       return res.send({ statusCode: 204 });
     } else if (Math.floor(Math.random() * (100 - 1) + 1) <= chance) {
