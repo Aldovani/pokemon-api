@@ -26,6 +26,7 @@ app.get("/pokemon/random", (req, res) => {
     console.log(pokemons[pokemonId])
 
     if (Math.round(Math.random() * 8) === 1) {
+      res.status=204
       return res.send({ statusCode: 204 });
     } else if (Math.floor(Math.random() * (100 - 1) + 1) <= chance) {
       return res.send(pokemons[pokemonId]);
