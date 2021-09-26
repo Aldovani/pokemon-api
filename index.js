@@ -21,13 +21,14 @@ app.get("/pokemon", (req, res) => {
 });
 app.get("/pokemon/random", (req, res) => {
   while (true) {
-    const pokemonId = Math.floor(Math.random() * (898 - 1) + 1);
+    const pokemonId =randomNumber(898,1)
+    
     const chance = chancesSpawn[pokemons[pokemonId].rarity];
 
-    if (Math.ceil(Math.random() * 12) === 1) {
+    if (randomNumber(12,1) === 1) {
       res.status=204
       return res.send({ statusCode: 204 });
-    } else if (Math.floor(Math.random() * (100 - 1) + 1) <= chance) {
+    } else if (randomNumber(100,1) <= chance) {
       return res.send(pokemons[pokemonId]);
     }
   }
@@ -64,3 +65,9 @@ app.listen(process.env.PORT || 8080, () => {
   console.log("server running on port 8080");
 });
 
+
+function randomNumber(min, max) {  
+  return Math.floor(
+    Math.random() * (max - min + 1) + min
+  )
+}
