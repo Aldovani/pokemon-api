@@ -1,12 +1,12 @@
 const express = require("express");
-const { pokemons } = require("./data/pokemonDb.json");
+const { pokemons} = require("./data/pokemonDb.json");
 const app = express();
 
 const chancesSpawn = {
   "ultra-beast": 1,
   legendary: 1,
   mythical: 3,
-  rare: 10,
+  rare: 5,
   uncommon: 30,
   common: 90,
 };
@@ -24,7 +24,7 @@ app.get("/pokemon/random", (req, res) => {
 
     const chance = chancesSpawn[pokemons[pokemonId].rarity];
 
-    if (randomNumber(1, 100) <= 6) {
+    if (randomNumber(1, 20) === 1) {
       res.status = 204;
       return res.send({ statusCode: 204 });
     } else if (randomNumber(1, 100) <= chance) {
@@ -61,5 +61,8 @@ app.listen(process.env.PORT || 8080, () => {
 });
 
 const randomNumber = (min, max) => {
- return Math.floor(Math.random() * (max - min + 1) + min);
-}
+  return Math.floor(Math.random() * (max - min + 1) + min);
+};
+
+
+
