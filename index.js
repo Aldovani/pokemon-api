@@ -20,14 +20,14 @@ app.get("/pokemon", (req, res) => {
 });
 app.get("/pokemon/random", (req, res) => {
   while (true) {
-    const pokemonId =randomNumber(1,898)
-    
+    const pokemonId = randomNumber(1, 898);
+
     const chance = chancesSpawn[pokemons[pokemonId].rarity];
 
-    if (randomNumber(1,100) <= 12) {
-      res.status=204
+    if (randomNumber(1, 100) <= 6) {
+      res.status = 204;
       return res.send({ statusCode: 204 });
-    } else if (randomNumber(1,100) <= chance) {
+    } else if (randomNumber(1, 100) <= chance) {
       return res.send(pokemons[pokemonId]);
     }
   }
@@ -47,9 +47,7 @@ app.get("/pokemon/:idOrName", (req, res) => {
 
     return res.send(pokemon);
   }
-  const pokemon = pokemons.find(
-    (e) => e.name === idOrName.toLowerCase()
-  );
+  const pokemon = pokemons.find((e) => e.name === idOrName.toLowerCase());
   if (!pokemon) {
     res.statusCode = 404;
     return res.send({ Error: `pokemon ${idOrName} not found` });
@@ -58,15 +56,10 @@ app.get("/pokemon/:idOrName", (req, res) => {
   return res.send(pokemon);
 });
 
-
-
 app.listen(process.env.PORT || 8080, () => {
   console.log("server running on port 8080");
 });
 
-
-function randomNumber(min, max) {  
-  return Math.floor(
-    Math.random() * (max - min + 1) + min
-  )
+const randomNumber = (min, max) => {
+ return Math.floor(Math.random() * (max - min + 1) + min);
 }
