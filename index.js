@@ -1,14 +1,14 @@
 const express = require("express");
-const { pokemons} = require("./data/pokemonDb.json");
+const { pokemons } = require("./data/pokemonDb.json");
 const app = express();
 
 const chancesSpawn = {
   "ultra-beast": 1,
-  legendary: 1,
-  mythical: 3,
+  legendary: 2,
+  mythical: 7,
   rare: 5,
-  uncommon: 30,
-  common: 90,
+  uncommon: 35,
+  common: 50,
 };
 
 app.get("/", (req, res) => {
@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/pokemon", (req, res) => {
-  res.send(pokemons);
+  res.send(pokemons); 
 });
 app.get("/pokemon/random", (req, res) => {
   while (true) {
@@ -63,6 +63,4 @@ app.listen(process.env.PORT || 8080, () => {
 const randomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
-
-
 
