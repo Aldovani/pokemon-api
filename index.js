@@ -25,17 +25,17 @@ app.get("/pokemon/random", (req, res) => {
     const pokemonId = randomNumber(0, 897);
     const chance = chancesSpawn[pokemons[pokemonId].rarity];
 
-    if (wishlist) {
-      if (wishlist.some((e) => e - 1 == pokemonId)) {
-        return res.send(pokemons[pokemonId]);
-      }
-    }
-
     if (randomNumber(1, 20) === 1) {
       res.status = 204;
       return res.send({ statusCode: 204 });
     } else if (randomNumber(1, 100) <= chance) {
       return res.send(pokemons[pokemonId]);
+    }
+    if (wishlist) {
+      if (wishlist.some((e) => e - 1 == pokemonId)) {
+        if (randomNumber(1, 100) <= chance)
+          return res.send(pokemons[pokemonId]);
+      }
     }
   }
 });
