@@ -1,4 +1,5 @@
 const express = require("express");
+const { json } = require("express/lib/response");
 const { pokemons } = require("./data/pokemonDb.json");
 const app = express();
 
@@ -16,13 +17,19 @@ app.get("/", (req, res) => {
 });
 
 app.get("/pokemon", (req, res) => {
-  res.send(pokemons); 
+  res.send(pokemons);
 });
 app.get("/pokemon/random", (req, res) => {
+  const wishlist = JSON.parse(req.query.pokemon);
   while (true) {
-    const pokemonId = randomNumber(1, 898);
-
+    const pokemonId = randomNumber(0, 897);
     const chance = chancesSpawn[pokemons[pokemonId].rarity];
+
+    if (Array.isArray(wishlist) && wishlist.length > 0) {
+      if (wishlist.some((e) => e == pokemonId + 1)) {
+        res.send(pokemons[pokemonId + 1]);
+      }
+    }
 
     if (randomNumber(1, 20) === 1) {
       res.status = 204;
@@ -63,4 +70,3 @@ app.listen(process.env.PORT || 8080, () => {
 const randomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
-
