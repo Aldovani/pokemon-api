@@ -20,16 +20,16 @@ app.get("/pokemon", (req, res) => {
   res.send(pokemons);
 });
 app.get("/pokemon/random", (req, res) => {
-  const wishlist = JSON.parse(req.query.pokemon);
+  // const wishlist = JSON.parse(req.query?.pokemon) || false;
   while (true) {
     const pokemonId = randomNumber(0, 897);
     const chance = chancesSpawn[pokemons[pokemonId].rarity];
 
-    if (Array.isArray(wishlist) && wishlist.length > 0) {
-      if (wishlist.some((e) => e == pokemonId + 1)) {
-        res.send(pokemons[pokemonId + 1]);
-      }
-    }
+    // if (Array.isArray(wishlist) && wishlist.length > 0) {
+    //   if (wishlist.some((e) => e == pokemonId + 1)) {
+    //     res.send(pokemons[pokemonId + 1]);
+    //   }
+    // }
 
     if (randomNumber(1, 20) === 1) {
       res.status = 204;
