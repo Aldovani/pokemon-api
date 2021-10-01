@@ -86,3 +86,71 @@ function wishlistCheck(whist) {
     return false;
   }
 }
+
+
+app.get("/teste/:rows", (req, res) => {
+  const rows = Number(req.params.rows)
+
+  let fugiu = 0;
+  let whist = 0;
+  let raros = 0;
+  let common = 0;
+  let uncommon = 0;
+  let lendario = 0;
+  let besta = 0;
+  let mystical = 0;
+  let i = 1; 
+
+  for (i; i <=  rows; i++) {
+    while (true) {
+      const pokemonId = randomNumber(0, 897);
+      const chance = chancesSpawn[pokemons[pokemonId].rarity];
+      
+      if (randomNumber(1, 20) === 1) {
+        fugiu++;
+        break;
+      } else if (randomNumber(1, 100) <= chance) {
+        if (pokemons[pokemonId].rarity == "rare") {
+          raros++;
+          break;
+        }
+        if (pokemons[pokemonId].rarity == "legendary") {
+          lendario++;
+          break;
+        }
+        if (pokemons[pokemonId].rarity == "ultra-beast") {
+          besta++;
+          break;
+        }
+        if (pokemons[pokemonId].rarity == "mythical") {
+          mystical++;
+          break;
+        }
+        if (pokemons[pokemonId].rarity == "common") {
+          common++
+          break
+        }
+        if (pokemons[pokemonId].rarity == "uncommon") {
+          uncommon++;
+          break
+        }
+        break;
+        // return res.send();
+      }
+    }
+  }
+  res.send({
+
+    common: common,
+    uncommon:  uncommon,
+    raros: raros,
+    mythical: mystical,
+    lendarios: lendario,
+    besta: besta,
+    fugiu: fugiu,
+    rows: i - 1,
+    // total:common+uncommon+raros+mystical+lendario+besta+fugiu
+  })
+
+})
+
