@@ -91,6 +91,10 @@ function wishlistCheck(whist) {
 app.get("/teste/:rows", (req, res) => {
   const rows = Number(req.params.rows)
 
+  if (rows > 10000) {
+    return res.send("Ta maluco FDP");
+  }
+
   let fugiu = 0;
   let whist = 0;
   let raros = 0;
