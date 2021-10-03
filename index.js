@@ -1,5 +1,8 @@
 const express = require("express");
 const { pokemons } = require("./data/pokemonDb.json");
+const { randomNumber } = require("./src/utils/math");
+const { wishlistCheck } = require("./src/utils/validations");
+
 const app = express();
 
 const chancesSpawn = {
@@ -18,23 +21,22 @@ app.get("/", (req, res) => {
 app.get("/pokemon", (req, res) => {
   res.send(pokemons);
 });
+
 app.get("/pokemon/random", (req, res) => {
   res.setHeader("content-type", "application/json");
   const wishlist = wishlistCheck(req.query?.wishlist);
   while (true) {
     const pokemonId = randomNumber(0, 897);
     const chance = chancesSpawn[pokemons[pokemonId].rarity];
-
     if (randomNumber(1, 20) === 1) {
       res.status = 204;
       return res.send({ statusCode: 204 });
-    } else if (randomNumber(1, 100) <= chance) {
+    } else if (randomNumber(0, 100) <= chance) {
       return res.send(pokemons[pokemonId]);
     }
     if (wishlist) {
       if (wishlist.some((e) => e - 1 == pokemonId)) {
-        if (randomNumber(1, 100) <= chance)
-          return res.send(pokemons[pokemonId]);
+        if (randomNumber(1, 80) <= chance) return res.send(pokemons[pokemonId]);
       }
     }
   }
@@ -63,98 +65,39 @@ app.get("/pokemon/:idOrName", (req, res) => {
   return res.send(pokemon);
 });
 
-app.listen(process.env.PORT || 8080, () => {
-  console.log("server running on port 8080");
-});
-
-const randomNumber = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1) + min);
-};
-
-function wishlistCheck(whist) {
-  try {
-    if (!whist) {
-      return false;
-    }
-
-    const whistConverted = JSON.parse(whist);
-
-    return Array.isArray(whistConverted) && whistConverted.length > 0
-      ? whistConverted
-      : false;
-  } catch {
-    return false;
-  }
-}
+app.get("/test/:rows", (req, res) => {
+  const rows = Number(req.params.rows);
+  if (rows > 10000) return res.send("Ta maluco FDP");
+  
+  const stats = {
+    common: 0,
+    uncommon: 0,
+    rare: 0,
+    mythical: 0,
+    legendary: 0,
+    "ultra-beast": 0,
+    escaped: 0,
+    rows: 0,
+  };
 
 
-app.get("/teste/:rows", (req, res) => {
-  const rows = Number(req.params.rows)
-
-  if (rows > 10000) {
-    return res.send("Ta maluco FDP");
-  }
-
-  let fugiu = 0;
-  let whist = 0;
-  let raros = 0;
-  let common = 0;
-  let uncommon = 0;
-  let lendario = 0;
-  let besta = 0;
-  let mystical = 0;
-  let i = 1; 
-
-  for (i; i <=  rows; i++) {
+  for (stats.rows; stats.rows < rows; stats.rows++) {
     while (true) {
       const pokemonId = randomNumber(0, 897);
       const chance = chancesSpawn[pokemons[pokemonId].rarity];
-      
+
       if (randomNumber(1, 20) === 1) {
-        fugiu++;
+        stats.escaped+=1;
         break;
-      } else if (randomNumber(1, 100) <= chance) {
-        if (pokemons[pokemonId].rarity == "rare") {
-          raros++;
-          break;
-        }
-        if (pokemons[pokemonId].rarity == "legendary") {
-          lendario++;
-          break;
-        }
-        if (pokemons[pokemonId].rarity == "ultra-beast") {
-          besta++;
-          break;
-        }
-        if (pokemons[pokemonId].rarity == "mythical") {
-          mystical++;
-          break;
-        }
-        if (pokemons[pokemonId].rarity == "common") {
-          common++
-          break
-        }
-        if (pokemons[pokemonId].rarity == "uncommon") {
-          uncommon++;
-          break
-        }
+      } else if (randomNumber(0, 100) <= chance) {
+        stats[pokemons[pokemonId].rarity]+=1;
         break;
-        // return res.send();
       }
     }
   }
-  res.send({
+  res.send(stats);
+});
 
-    common: common,
-    uncommon:  uncommon,
-    raros: raros,
-    mythical: mystical,
-    lendarios: lendario,
-    besta: besta,
-    fugiu: fugiu,
-    rows: i - 1,
-    // total:common+uncommon+raros+mystical+lendario+besta+fugiu
-  })
-
-})
-
+app.listen(process.env.PORT || 8080, () => {
+  console.log("server running on port 8080");
+});
