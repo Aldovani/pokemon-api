@@ -2810,7 +2810,7 @@
       "types": [
         "grass",
         "dark"
-      ] 
+      ]
     },
     {
       "id": 333,
@@ -7625,6 +7625,54 @@
         "psychic",
         "grass"
       ]
+    },
+    {
+      "id": 5000,
+      "name": "mega-charizard-x",
+      "rarity": "exclusive",
+      "types": [
+        "fire",
+        "dragon"
+      ],
+      "image": "https://cdn.discordapp.com/attachments/894257945578180628/894258046346338354/5000.png"
+    },    
+    {
+      "id": 5001,
+      "name": "mega-mewtwo-y",
+      "rarity": "exclusive",
+      "types": [
+        "psychic"
+      ],
+      "image":"https://cdn.discordapp.com/attachments/894257945578180628/894258064130203648/5001.png"
+    },
+    {
+      "id": 5002,
+      "name": "shiny-arceus",
+      "rarity": "exclusive",
+      "types": [
+        "normal"
+      ],
+      "image":"https://cdn.discordapp.com/attachments/894257945578180628/894258079682691132/5002.png"
+    },
+    {
+      "id": 5003,
+      "name": "shiny-mega-rayquaza",
+      "rarity": "exclusive",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "image":"https://cdn.discordapp.com/attachments/894257945578180628/894258093993656400/5003.png"
+    },
+    {
+      "id": 5004,
+      "name": "shadow-lugia",
+      "rarity": "exclusive",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "image":"https://cdn.discordapp.com/attachments/894257945578180628/894258107578978355/5004.png"
     }
   ]
 }
