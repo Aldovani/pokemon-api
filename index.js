@@ -68,7 +68,7 @@ app.get("/pokemon/:idOrName", (req, res) => {
 app.get("/test/:rows", (req, res) => {
   const rows = Number(req.params.rows);
   if (rows > 10000) return res.send("Ta maluco FDP");
-  
+
   const stats = {
     common: 0,
     uncommon: 0,
@@ -78,8 +78,10 @@ app.get("/test/:rows", (req, res) => {
     "ultra-beast": 0,
     escaped: 0,
     rows: 0,
+    total: [],
+    "not-repeated": 0,
+    repeated: 0,
   };
-
 
   for (stats.rows; stats.rows < rows; stats.rows++) {
     while (true) {
@@ -87,14 +89,18 @@ app.get("/test/:rows", (req, res) => {
       const chance = chancesSpawn[pokemons[pokemonId].rarity];
 
       if (randomNumber(1, 20) === 1) {
-        stats.escaped+=1;
+        stats.escaped += 1;
         break;
       } else if (randomNumber(0, 100) <= chance) {
-        stats[pokemons[pokemonId].rarity]+=1;
+        stats[pokemons[pokemonId].rarity] += 1;
+        stats["total"] = [...stats["total"], pokemonId];
         break;
       }
     }
   }
+  stats["not-repeated"] = Array.from(new Set(stats["total"])).length;
+  stats["total"] = stats["total"].length;
+  stats["repeated"] = stats["total"] - stats["not-repeated"];
   res.send(stats);
 });
 
