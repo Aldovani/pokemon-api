@@ -7673,6 +7673,16 @@
         "flying"
       ],
       "image":"https://cdn.discordapp.com/attachments/894257945578180628/894258107578978355/5004.png"
-    }
+    },
+    {
+      "id": 5005,
+      "name": "shiny-ultra-necrozma",
+      "rarity": "exclusive",
+      "types": [
+          "psychic",
+          "dragon"
+      ],
+      "image": "https://media.discordapp.net/attachments/887158781832749086/894266796100681770/5005.png"
+  }
   ]
 }
