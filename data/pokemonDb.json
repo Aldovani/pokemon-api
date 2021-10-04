@@ -7683,6 +7683,25 @@
           "dragon"
       ],
       "image": "https://media.discordapp.net/attachments/887158781832749086/894266796100681770/5005.png"
-  }
+  },
+  {
+    "id": 5006,
+    "name": "shiny-ash-greninja",
+    "rarity": "exclusive",
+    "types": [
+        "water",
+        "dark"
+    ],
+    "image": "https://media.discordapp.net/attachments/887158781832749086/894362153878970368/5006.png"
+},{
+  "id": 5007,
+  "name": "zapdos-galarian",
+  "rarity": "exclusive",
+  "types": [
+      "fighting",
+      "flying"
+  ],
+  "image": "https://media.discordapp.net/attachments/887158781832749086/894400572424343572/5007.png"
+}
   ]
 }
