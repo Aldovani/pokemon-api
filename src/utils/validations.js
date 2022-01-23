@@ -1,4 +1,5 @@
-function wishlistCheck(whist) {
+
+ function wishlistCheck(whist) {
   try {
     if (!whist) {
       return false;
@@ -13,6 +14,7 @@ function wishlistCheck(whist) {
     return false;
   }
 }
+
 module.exports = {
-  wishlistCheck
-}
+  wishlistCheck,
+};
